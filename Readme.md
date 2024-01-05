@@ -30,6 +30,9 @@
 또한 부가적인 다양한 기능으로 이벤트로 모인 사람들과의 커뮤니티 또는 선물을 주고 받는 기능 등을 사용하여 초대장 작성 및 발송으로 끝나는 것이 아니라 사용자가 이용할 동기를 부여할 수 있다.
 
 ## 기술스택
+|DA#|ERDcloud|ubuntu|mariaDB|
+|---|---|---|---|
+|<img src="https://github.com/swcamp/vite/blob/main/PNG/Readme/da%23.png" height="150" />|<img src="https://github.com/swcamp/vite/blob/main/PNG/Readme/erdcloud.png" height="150" />|<img src="https://github.com/swcamp/vite/blob/main/PNG/Readme/ubuntu.png" height="150" />|<img src="https://github.com/swcamp/vite/blob/main/PNG/Readme/mariadb.png" height="150" />|   
 
 ## WBS
 
