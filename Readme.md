@@ -1,4 +1,4 @@
-# 📧바이트(Vite)
+# ✉바이트
 
 <p align="center"><img src="https://github.com/swcamp/vite/blob/main/PNG/Readme/VITE_로고.png" width='315' height='90'/></p>
 
