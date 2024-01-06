@@ -60,7 +60,7 @@
 ## DB 모델링
 
 ### ERD
-<p align="center"><img src="https://github.com/swcamp/vite/blob/main/PNG/Readme/ERDcloud_modeling.png"/></p>
+<p align="center"><img src="https://github.com/swcamp/vite/blob/main/PNG/Readme/ERDcloud_modeling2.png"/></p>
 
 ### Barker 표기법
 <p align="center"><img src="https://github.com/swcamp/vite/blob/main/PNG/Readme/바커.PNG"/></p>
