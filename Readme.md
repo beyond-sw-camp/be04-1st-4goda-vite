@@ -41,9 +41,9 @@
 ## DB 모델링
 
 ### ERD
-
+<img src="https://github.com/swcamp/vite/blob/main/PNG/Readme/ERDcloud_modeling.png"/>
 ### Barker 표기법
-
+<img src="https://github.com/swcamp/vite/blob/main/PNG/Readme/바커.png"/>
 ## 주요 쿼리
 
 ## 테스트
