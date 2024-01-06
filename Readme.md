@@ -6,12 +6,12 @@
 
 ### 팀원
 
-- 박고은
-- 배성민
-- 이예원
-- 장민석
-- 정우진
-- 한소혜
+- [박고은](https://github.com/goeunpark123)
+- [배성민](https://github.com/mini-xi)
+- [이예원](https://github.com/onelee521)
+- [장민석](https://github.com/ms1011)
+- [정우진](https://github.com/Wrinkk)
+- [한소혜](https://github.com/Sosohy)
 
 ## 프로젝트 개요
 
