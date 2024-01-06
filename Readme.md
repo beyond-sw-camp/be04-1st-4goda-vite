@@ -1,6 +1,6 @@
 # ✉바이트
 
-<p align="center"><img src="https://github.com/swcamp/vite/blob/main/PNG/Readme/VITE_로고.png" width='315' height='90'/></p>
+<p align="center"><img src="https://github.com/swcamp/vite/blob/main/PNG/Readme/로고_수정.png"/></p>
 
 ### 팀명 : 사고뭉치
 
