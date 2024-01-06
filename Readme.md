@@ -1,6 +1,6 @@
 # 인싸바이트
 
-<img src="https://github.com/swcamp/vite/blob/main/PNG/Readme/VITE_로고.png" width='400' height='100'/></center>
+<img src="https://github.com/swcamp/vite/blob/main/PNG/Readme/VITE_로고.png" width='245' height='70'/></center>
 
 ### 팀명 : 사고뭉치
 
