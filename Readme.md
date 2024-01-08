@@ -108,13 +108,19 @@
 <p align="center"><img src="https://github.com/beyond-sw-camp/be04-1st-4goda-vite/blob/main/PNG/Readme/개념 모델링.png"/></p>
 
 ### Barker 표기법
+(전체)
 <p align="center"><img src="https://github.com/beyond-sw-camp/be04-1st-4goda-vite/blob/main/PNG/Readme/바커수정.PNG"/></p>
+(L)
 <p align="center"><img src="https://github.com/beyond-sw-camp/be04-1st-4goda-vite/blob/main/PNG/Readme/바커수정1.PNG"/></p>
+(R)
 <p align="center"><img src="https://github.com/beyond-sw-camp/be04-1st-4goda-vite/blob/main/PNG/Readme/바커수정2.PNG"/></p>
 
 ### 물리 모델링
+(전체)
 <p align="center"><img src="https://github.com/beyond-sw-camp/be04-1st-4goda-vite/blob/main/PNG/Readme/물리모델링.PNG"/></p>
+(L)
 <p align="center"><img src="https://github.com/beyond-sw-camp/be04-1st-4goda-vite/blob/main/PNG/Readme/물리모델링1.PNG"/></p>
+(R)
 <p align="center"><img src="https://github.com/beyond-sw-camp/be04-1st-4goda-vite/blob/main/PNG/Readme/물리모델링2.PNG"/></p>
 
 ## 주요 쿼리
