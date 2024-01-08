@@ -15,7 +15,7 @@
 - [정우진](https://github.com/Wrinkk)
 - [한소혜](https://github.com/Sosohy)
 
-## 프로젝트 개요
+## 🎈 프로젝트 개요
 
 ### 1. 프로젝트 소개
 
