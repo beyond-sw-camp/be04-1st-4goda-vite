@@ -7,7 +7,7 @@
 ### 팀명 : 사고뭉치
 
 ### 팀원
-|이름|
+|이름|---|이름|
 |:---:|:---:|:---:|:---:|:---:|:---:|
 |[박고은](https://github.com/goeunpark123)|[배성민](https://github.com/mini-xi)|[이예원](https://github.com/onelee521)|[장민석](https://github.com/ms1011)|[정우진](https://github.com/Wrinkk)|[한소혜](https://github.com/Sosohy)|
 
