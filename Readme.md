@@ -1,6 +1,6 @@
 # ✉바이트
 
-<p align="center"><img src="https://github.com/swcamp/vite/blob/main/PNG/Readme/로고_수정.png"/></p>
+<p align="center"><img src="https://github.com/beyond-sw-camp/be04-1st-4goda-vite/blob/main/PNG/Readme/로고_수정.png"/></p>
 
 바이트는 데이터 처리, 저장, 전송의 기본적인 단위로 널리 사용되며, 이러한 개념이 이벤트 처리, 저장, 전송과 관련된 기능을 통합한 VITE 플랫폼과 유사하게 연결됩니다. 또한, 초대하다는 의미를 가진 INVITE에서 VITE를 채용함으로써, 두 가지 의미를 동시에 담고 있습니다.
 
@@ -25,9 +25,9 @@
 
 멀리 사는 지인에게 평범한 이메일이나 문자가 아닌 특별한 초대장을 보낼 수 있습니다.
 
-![image](https://github.com/swcamp/vite/assets/64572078/2b5b1844-2ce1-4245-945d-dfa4dc86fcf8)
-![image](https://github.com/swcamp/vite/assets/64572078/2907bfed-fa34-425d-b574-9f6a1c60201c)
-![image](https://github.com/swcamp/vite/assets/64572078/be8bb5bb-b4c4-4f00-9267-f25144a835cc)
+![image](https://github.com/beyond-sw-camp/be04-1st-4goda-vite/assets/64572078/2b5b1844-2ce1-4245-945d-dfa4dc86fcf8)
+![image](https://github.com/beyond-sw-camp/be04-1st-4goda-vite/assets/64572078/2907bfed-fa34-425d-b574-9f6a1c60201c)
+![image](https://github.com/beyond-sw-camp/be04-1st-4goda-vite/assets/64572078/be8bb5bb-b4c4-4f00-9267-f25144a835cc)
 
 
 최근 뉴스에 따르면 모바일 초대장이 개인 행사뿐만 아니라 지역 행사나 회사에서도 널리 사용되고 있습니다. 모임 통장의 보편화로 소규모 모임이 늘어나고 있으며, 연말, 연시 등 다양한 개인 및 인간 관계의 기념일이 다양화되고 있어서 초대장의 역할이 더욱 중요해졌습니다.
@@ -60,7 +60,7 @@
 ## 기술스택
 |DA#|ERDcloud|ubuntu|mariaDB|
 |---|---|---|---|
-|<img src="https://github.com/swcamp/vite/blob/main/PNG/Readme/da%23.png" height="150" />|<img src="https://github.com/swcamp/vite/blob/main/PNG/Readme/erdcloud.png" height="150" />|<img src="https://github.com/swcamp/vite/blob/main/PNG/Readme/ubuntu.png" height="150" />|<img src="https://github.com/swcamp/vite/blob/main/PNG/Readme/mariadb.png" height="150" />|   
+|<img src="https://github.com/beyond-sw-camp/be04-1st-4goda-vite/blob/main/PNG/Readme/da%23.png" height="150" />|<img src="https://github.com/beyond-sw-camp/be04-1st-4goda-vite/blob/main/PNG/Readme/erdcloud.png" height="150" />|<img src="https://github.com/beyond-sw-camp/be04-1st-4goda-vite/blob/main/PNG/Readme/ubuntu.png" height="150" />|<img src="https://github.com/beyond-sw-camp/be04-1st-4goda-vite/blob/main/PNG/Readme/mariadb.png" height="150" />|   
 
 ## WBS
 
@@ -72,7 +72,7 @@
 <p align="center"><img src="https://github.com/beyond-sw-camp/be04-1st-4goda-vite/blob/main/PNG/Readme/개념 모델링.png"/></p>
 
 ### ERD
-<p align="center"><img src="https://github.com/swcamp/vite/blob/main/PNG/Readme/ERDcloud_modeling2.png"/></p>
+<p align="center"><img src="https://github.com/beyond-sw-camp/be04-1st-4goda-vite/blob/main/PNG/Readme/ERDcloud_modeling2.png"/></p>
 
 ### Barker 표기법
 <p align="center"><img src="https://github.com/beyond-sw-camp/be04-1st-4goda-vite/blob/main/PNG/Readme/논리 모델링.PNG"/></p>
