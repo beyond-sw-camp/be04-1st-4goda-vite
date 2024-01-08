@@ -2,6 +2,8 @@
 
 <p align="center"><img src="https://github.com/swcamp/vite/blob/main/PNG/Readme/로고_수정.png"/></p>
 
+바이트는 데이터 처리, 저장, 전송의 기본적인 단위로 널리 사용되며, 이러한 개념이 이벤트 처리, 저장, 전송과 관련된 기능을 통합한 VITE 플랫폼과 유사하게 연결됩니다. 또한, 초대하다는 의미를 가진 INVITE에서 VITE를 채용함으로써, 두 가지 의미를 동시에 담고 있습니다.
+
 ### 팀명 : 사고뭉치
 
 ### 팀원
