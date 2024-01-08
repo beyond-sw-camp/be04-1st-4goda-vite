@@ -143,6 +143,8 @@
 ### 3. 물리 모델링
 (전체)
 <p align="center"><img src="https://github.com/beyond-sw-camp/be04-1st-4goda-vite/blob/main/PNG/Readme/물리모델링_수정.PNG"/></p>
+<details>
+<summary><b>물리모델링 확대(L/R)</b></summary>
 (L)
 <p align="center"><img src="https://github.com/beyond-sw-camp/be04-1st-4goda-vite/blob/main/PNG/Readme/물리모델링_수정1.PNG"/></p>
 (R)
