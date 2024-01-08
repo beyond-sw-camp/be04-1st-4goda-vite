@@ -23,6 +23,13 @@
 ### [기술스택](#-기술스택)<br/>
 ### [WBS](#WBS)<br/>
 ### [요구사항](#-요구사항)<br/>
+### [DB 모델링](#-DB-모델링)<br/>
+&nbsp;&nbsp;[1. 개념 모델링](#1-개념-모델링)<br/>
+&nbsp;&nbsp;[2. 논리 모델링](#2-논리-모델링)<br/>
+&nbsp;&nbsp;[3. 물리 모델링](#3-물리-모델링)<br/>
+### [주요 쿼리](#주요-쿼리)<br/>
+### [테스트](#테스트)<br/>
+### [회고](#회고)<br/>
 
 ## 🎈 프로젝트 개요
 
@@ -113,10 +120,10 @@
 
 ## 💭 DB 모델링
 
-### 개념 모델링
+### 1. 개념 모델링
 <p align="center"><img src="https://github.com/beyond-sw-camp/be04-1st-4goda-vite/blob/main/PNG/Readme/개념 모델링.png"/></p>
 
-### 논리 모델링(Barker 표기법)
+### 2. 논리 모델링(Barker 표기법)
 (전체)
 <p align="center"><img src="https://github.com/beyond-sw-camp/be04-1st-4goda-vite/blob/main/PNG/Readme/바커수정.PNG"/></p>
 (L)
@@ -124,7 +131,7 @@
 (R)
 <p align="center"><img src="https://github.com/beyond-sw-camp/be04-1st-4goda-vite/blob/main/PNG/Readme/바커수정2.PNG"/></p>
 
-### 물리 모델링
+### 3. 물리 모델링
 (전체)
 <p align="center"><img src="https://github.com/beyond-sw-camp/be04-1st-4goda-vite/blob/main/PNG/Readme/물리모델링_수정.PNG"/></p>
 (L)
