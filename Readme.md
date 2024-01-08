@@ -83,8 +83,10 @@
 
 ## 📘 요구사항
 
-<p align="center"><img src="https://github.com/beyond-sw-camp/be04-1st-4goda-vite/blob/main/PNG/Readme/요구사항1.png"/></p>
-
+<p align="center"><img src="https://github.com/beyond-sw-camp/be04-1st-4goda-vite/blob/main/PNG/Readme/요구사항1.PNG"/></p>
+<p align="center"><img src="https://github.com/beyond-sw-camp/be04-1st-4goda-vite/blob/main/PNG/Readme/요구사항2.PNG"/></p>
+<p align="center"><img src="https://github.com/beyond-sw-camp/be04-1st-4goda-vite/blob/main/PNG/Readme/요구사항3.PNG"/></p>
+<p align="center"><img src="https://github.com/beyond-sw-camp/be04-1st-4goda-vite/blob/main/PNG/Readme/요구사항4.PNG"/></p>
 
 <details>
 <summary><b>VITE 상세정책</b></summary>
