@@ -69,6 +69,7 @@
 
 <details>
 <summary><b>VITE 상세정책</b></summary>
+    
 - 회원등급 관련
     - 일반: 할인 혜택 없음
     - VIP : 3% 할인 (누적결제금액 3만원 이상)
