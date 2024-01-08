@@ -58,16 +58,16 @@
     - 이벤트 공유 페이지를 통해 다른 사람의 이벤트를 참고할 수 있다.
     - 현재 인기가 많은 이벤트 형식이 무엇인지 확인할 수 있다.
 
-## 기술스택
+## 📟 기술스택
 |DA#|ERDcloud|ubuntu|mariaDB|
 |---|---|---|---|
 |<img src="https://github.com/beyond-sw-camp/be04-1st-4goda-vite/blob/main/PNG/Readme/da%23.png" height="150" />|<img src="https://github.com/beyond-sw-camp/be04-1st-4goda-vite/blob/main/PNG/Readme/erdcloud.png" height="150" />|<img src="https://github.com/beyond-sw-camp/be04-1st-4goda-vite/blob/main/PNG/Readme/ubuntu.png" height="150" />|<img src="https://github.com/beyond-sw-camp/be04-1st-4goda-vite/blob/main/PNG/Readme/mariadb.png" height="150" />|   
 
 ## WBS
 
-## 요구사항
+## 📘 요구사항
 
-## DB 모델링
+## 💭 DB 모델링
 
 ### 개념 모델링
 <p align="center"><img src="https://github.com/beyond-sw-camp/be04-1st-4goda-vite/blob/main/PNG/Readme/개념 모델링.png"/></p>
@@ -77,6 +77,8 @@
 
 ### Barker 표기법
 <p align="center"><img src="https://github.com/beyond-sw-camp/be04-1st-4goda-vite/blob/main/PNG/Readme/논리 모델링.png"/></p>
+
+## 💽 물리 모델링
 
 ## 주요 쿼리
 
