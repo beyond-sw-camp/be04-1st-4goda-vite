@@ -133,7 +133,6 @@
 <p align="center"><img src="https://github.com/beyond-sw-camp/be04-1st-4goda-vite/blob/main/PNG/Readme/개념 모델링.png"/></p>
 
 ### 2. 논리 모델링(Barker 표기법)
-(전체)
 <p align="center"><img src="https://github.com/beyond-sw-camp/be04-1st-4goda-vite/blob/main/PNG/Readme/바커수정.PNG"/></p>
 <details>
 <summary><b>논리모델링 확대(L/R)</b></summary>
@@ -144,7 +143,6 @@
 </details>
 
 ### 3. 물리 모델링
-(전체)
 <p align="center"><img src="https://github.com/beyond-sw-camp/be04-1st-4goda-vite/blob/main/PNG/Readme/물리모델링_수정.PNG"/></p>
 <details>
 <summary><b>물리모델링 확대(L/R)</b></summary>
