@@ -75,9 +75,13 @@
     - 현재 인기가 많은 이벤트 형식이 무엇인지 확인할 수 있다.
 
 ## 📟 기술스택
+<div align="center">
+
 |DA#|ubuntu|mariaDB|
 |---|---|---|
 |<img src="https://github.com/beyond-sw-camp/be04-1st-4goda-vite/blob/main/PNG/Readme/da%23.png" height="150" />|<img src="https://github.com/beyond-sw-camp/be04-1st-4goda-vite/blob/main/PNG/Readme/ubuntu.png" height="150" />|<img src="https://github.com/beyond-sw-camp/be04-1st-4goda-vite/blob/main/PNG/Readme/mariadb.png" height="150" />|   
+
+</div>
 
 ## 📝 WBS
 
