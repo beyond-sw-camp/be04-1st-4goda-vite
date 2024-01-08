@@ -135,6 +135,8 @@
 <p align="center"><img src="https://github.com/beyond-sw-camp/be04-1st-4goda-vite/blob/main/PNG/Readme/물리모델링_수정2.PNG"/></p>
 </details>
 
+## ✍🏻 DDL
+
 ## ✒️ 주요 쿼리
 
 ## 🏁 테스트
