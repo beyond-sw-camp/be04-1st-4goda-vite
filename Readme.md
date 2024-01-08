@@ -25,9 +25,10 @@
 
 멀리 사는 지인에게 평범한 이메일이나 문자가 아닌 특별한 초대장을 보낼 수 있습니다.
 
-![image](https://github.com/beyond-sw-camp/be04-1st-4goda-vite/assets/64572078/2b5b1844-2ce1-4245-945d-dfa4dc86fcf8)
-![image](https://github.com/beyond-sw-camp/be04-1st-4goda-vite/assets/64572078/2907bfed-fa34-425d-b574-9f6a1c60201c)
-![image](https://github.com/beyond-sw-camp/be04-1st-4goda-vite/assets/64572078/be8bb5bb-b4c4-4f00-9267-f25144a835cc)
+<img src="https://github.com/beyond-sw-camp/be04-1st-4goda-vite/blob/main/PNG/Readme/news1.png"/></p>
+<img src="https://github.com/beyond-sw-camp/be04-1st-4goda-vite/blob/main/PNG/Readme/news2.png"/></p>
+<img src="https://github.com/beyond-sw-camp/be04-1st-4goda-vite/blob/main/PNG/Readme/news3.png"/></p>
+
 
 
 최근 뉴스에 따르면 모바일 초대장이 개인 행사뿐만 아니라 지역 행사나 회사에서도 널리 사용되고 있습니다. 모임 통장의 보편화로 소규모 모임이 늘어나고 있으며, 연말, 연시 등 다양한 개인 및 인간 관계의 기념일이 다양화되고 있어서 초대장의 역할이 더욱 중요해졌습니다.
