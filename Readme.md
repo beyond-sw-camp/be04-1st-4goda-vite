@@ -25,7 +25,7 @@
 
 멀리 사는 지인에게 평범한 이메일이나 문자가 아닌 특별한 초대장을 보낼 수 있습니다.
 
-<img src="https://github.com/beyond-sw-camp/be04-1st-4goda-vite/blob/main/PNG/Readme/news1.png"/></p>
+<img src="https://github.com/beyond-sw-camp/be04-1st-4goda-vite/blob/main/PNG/Readme/news1.png" width="30%" height="30%"/></p>
 <img src="https://github.com/beyond-sw-camp/be04-1st-4goda-vite/blob/main/PNG/Readme/news2.png"/></p>
 <img src="https://github.com/beyond-sw-camp/be04-1st-4goda-vite/blob/main/PNG/Readme/news3.png"/></p>
 
