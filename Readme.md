@@ -69,13 +69,13 @@
 ## DB 모델링
 
 ### 개념 모델링
-<p align="center"><img src="https://github.com/swcamp/vite/blob/main/PNG/Readme/개념 모델링.png"/></p>
+<p align="center"><img src="https://github.com/beyond-sw-camp/be04-1st-4goda-vite/blob/main/PNG/Readme/개념 모델링.png"/></p>
 
 ### ERD
 <p align="center"><img src="https://github.com/swcamp/vite/blob/main/PNG/Readme/ERDcloud_modeling2.png"/></p>
 
 ### Barker 표기법
-<p align="center"><img src="https://github.com/swcamp/vite/blob/main/PNG/Readme/논리 모델링.PNG"/></p>
+<p align="center"><img src="https://github.com/swcamp/beyond-sw-camp/be04-1st-4goda-vite/main/PNG/Readme/논리 모델링.PNG"/></p>
 
 ## 주요 쿼리
 
