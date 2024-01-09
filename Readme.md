@@ -543,9 +543,9 @@ REFERENCES `post` (
 <details>
 <summary><b>🕵️‍♀️회원</b></summary>
     <div>
-         &nbsp;&nbsp;<details>
-         &nbsp;&nbsp;&nbsp;<summary><b>추가 이미지</b></summary>
-         &nbsp;&nbsp;</details>
+         <details>
+         <summary><b>추가 이미지</b></summary>
+         </details>
     </div>
 </details>
 
