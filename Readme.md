@@ -588,11 +588,13 @@ REFERENCES `post` (
          </details>
     </div>
 </details>
+
 ***
+___
+
 <details>
 <summary><b>✨이벤트</b></summary>
-	
-    <div>
+	<div>
          <details>
          <summary><b>1. 이벤트 삭제</b></summary>
          <p><img src="PNG/Captures/event/이벤트_이벤트삭제1.png"/></p>
