@@ -143,7 +143,6 @@
 <p align="center"><img src="https://github.com/beyond-sw-camp/be04-1st-4goda-vite/blob/main/PNG/Readme/master_slave_structure.png"/></p>
 <p align="center"><img src="https://github.com/beyond-sw-camp/be04-1st-4goda-vite/blob/main/PNG/Readme/master_slave_connection.png"/></p>
 
-
 ## 📖 DDL
 <details>
 <summary><b>VITE DDL</b></summary>
@@ -547,6 +546,11 @@ REFERENCES `post` (
 ```
 </details>
 
+## 📃 테스트케이스 문서
+
+[테스트케이스 바로가기](https://docs.google.com/spreadsheets/d/1tX0TRsPvECfPtoJETw0iKIp1Ami4aau9lG6vSYuidu4/edit#gid=427773154)
+<p align="center"><img src="https://github.com/beyond-sw-camp/be04-1st-4goda-vite/blob/main/PNG/Readme/테스트케이스_수정.png"/></p>
+
 ## ✒️ 주요 쿼리
 <details>
 	<summary><b>이벤트RSVP UPDATE</b></summary>
@@ -633,10 +637,6 @@ REFERENCES `post` (
         </details>
 </details> 
 
-## 📃 테스트케이스 문서
-
-[테스트케이스 바로가기](https://docs.google.com/spreadsheets/d/1tX0TRsPvECfPtoJETw0iKIp1Ami4aau9lG6vSYuidu4/edit#gid=427773154)
-<p align="center"><img src="https://github.com/beyond-sw-camp/be04-1st-4goda-vite/blob/main/PNG/Readme/테스트케이스_수정.png"/></p>
 
 ## 🏁 테스트케이스 
 <details>
