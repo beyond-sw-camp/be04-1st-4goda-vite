@@ -565,95 +565,91 @@ REFERENCES `post` (
 	 <p><img src="PNG/Captures/user/회원_회원_탈퇴2.png"/></p>
          </details>
 	 <details>
-         <summary><b>초대 내역 확인</b></summary>
+         <summary><b>5. 초대 내역 확인</b></summary>
          <p><img src="PNG/Captures/user/회원_초대내역확인_초대받았을때1.png"/></p>
          <p><img src="PNG/Captures/user/회원_초대내역확인_초대받았을때2.png"/></p>
 	 <p><img src="PNG/Captures/user/회원_초대내역확인_초대했을때1.png"/></p>
 	 <p><img src="PNG/Captures/user/회원_초대내역확인_초대했을때2.png"/></p>
          </details>
 	 <details>
-         <summary><b>회원 상태 관리</b></summary>
+         <summary><b>6. 회원 상태 관리</b></summary>
          <p><img src="PNG/Captures/user/회원_회원상태관리1.png"/></p>
 	 <p><img src="PNG/Captures/user/회원_회원상태관리2.png"/></p>
          </details>
 	 <details>
-         <summary><b>회원ID 검색</b></summary>
+         <summary><b>7. 회원ID 검색</b></summary>
          <p><img src="PNG/Captures/user/회원_회원ID검색1.png"/></p>
 	 <p><img src="PNG/Captures/user/회원_회원ID검색2.png"/></p>
          </details>				 
 	 <details>
-         <summary><b>닉네임 검색</b></summary>
+         <summary><b>8. 닉네임 검색</b></summary>
          <p><img src="PNG/Captures/user/회원_닉네임검색1.png"/></p>
 	 <p><img src="PNG/Captures/user/회원_닉네임검색2.png"/></p>
          </details>
     </div>
 </details>
-
 ***
-
-___
-
 <details>
 <summary><b>✨이벤트</b></summary>
 	
     <div>
          <details>
-         <summary><b>이벤트 삭제</b></summary>
+         <summary><b>1. 이벤트 삭제</b></summary>
          <p><img src="PNG/Captures/event/이벤트_이벤트삭제1.png"/></p>
          <p><img src="PNG/Captures/event/이벤트_이벤트삭제2.png"/></p>
          </details>
          <details>
-         <summary><b>이벤트 공개</b></summary>
+         <summary><b>2. 이벤트 공개</b></summary>
          <p><img src="PNG/Captures/event/이벤트_이벤트공개1.png"/></p>
          <p><img src="PNG/Captures/event/이벤트_이벤트공개2.png"/></p>
          </details>
          <details>
-         <summary><b>이벤트 비공개</b></summary>
+         <summary><b>3. 이벤트 비공개</b></summary>
          <p><img src="PNG/Captures/event/이벤트_이벤트비공개1.png"/></p>
          <p><img src="PNG/Captures/event/이벤트_이벤트비공개2.png"/></p>
          </details>
          <details>
-         <summary><b>이벤트 좋아요</b></summary>
+         <summary><b>4. 이벤트 좋아요</b></summary>
          <p><img src="PNG/Captures/event/이벤트_이벤트좋아요1.png"/></p>
          <p><img src="PNG/Captures/event/이벤트_이벤트좋아요2.png"/></p>
          </details>
          <details>
-         <summary><b>이벤트 좋아요 취소</b></summary>
+         <summary><b>5. 이벤트 좋아요 취소</b></summary>
          <p><img src="PNG/Captures/event/이벤트_이벤트좋아요취소1.png"/></p>
          <p><img src="PNG/Captures/event/이벤트_이벤트좋아요취소2.png"/></p>
          </details>
          <details>
-         <summary><b>이벤트 댓글 작성</b></summary>
+         <summary><b>6. 이벤트 댓글 작성</b></summary>
          <p><img src="PNG/Captures/event/이벤트_이벤트댓글작성1.png"/></p>
          <p><img src="PNG/Captures/event/이벤트_이벤트댓글작성2.png"/></p>
          </details>
          <details>
-         <summary><b>이벤트 댓글 수정</b></summary>
+         <summary><b>7. 이벤트 댓글 수정</b></summary>
          <p><img src="PNG/Captures/event/이벤트_이벤트댓글수정1.png"/></p>
          <p><img src="PNG/Captures/event/이벤트_이벤트댓글수정2.png"/></p>
          </details>
          <details>
-         <summary><b>이벤트 댓글 삭제</b></summary>
+         <summary><b>8. 이벤트 댓글 삭제</b></summary>
          <p><img src="PNG/Captures/event/이벤트_이벤트댓글삭제1.png"/></p>
          <p><img src="PNG/Captures/event/이벤트_이벤트댓글삭제2.png"/></p>
          </details>
          <details>
-         <summary><b>이벤트 좋아요</b></summary>
+         <summary><b>9. 이벤트 좋아요</b></summary>
          <p><img src="PNG/Captures/event/이벤트_이벤트좋아요1.png"/></p>
          <p><img src="PNG/Captures/event/이벤트_이벤트좋아요2.png"/></p>
          </details>
 	 <details>
-         <summary><b>회원별 작성 이벤트 댓글 조회</b></summary>
+         <summary><b>10. 회원별 작성 이벤트 댓글 조회</b></summary>
          <p><img src="PNG/Captures/event/이벤트_회원별작성이벤트댓글조회1.png"/></p>
          <p><img src="PNG/Captures/event/이벤트_회원별작성이벤트댓글조회2.png"/></p>
          </details>
 	 <details>
-         <summary><b>이벤트 주최 회원 닉네임 확인</b></summary>
+         <summary><b>11. 이벤트 주최 회원 닉네임 확인</b></summary>
          <p><img src="PNG/Captures/event/이벤트_이벤트주최회원닉네임확인1.png"/></p>
          <p><img src="PNG/Captures/event/이벤트_이벤트주최회원닉네임확인2.png"/></p>
          </details>
 	 <details>
-         <summary><b>이벤트카테고리별 이벤트 목록 확인</b></summary>
+         <summary><b>12. 이벤트카테고리별 이벤트 목록 확인</b></summary>
          <p><img src="PNG/Captures/event/이벤트_이벤트카테고리별이벤목록확인1.png"/></p>
          <p><img src="PNG/Captures/event/이벤트_이벤트카테고리별이벤트목록확인2.png"/></p>
          </details>
