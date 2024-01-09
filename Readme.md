@@ -542,7 +542,12 @@ REFERENCES `post` (
 
 <details>
 <summary><b>회원</b></summary>
+    
+    <details>
+    <summary><b>추가 이미지</b></summary>
 
+    </details>
+    
 </details>
 
 <details>
