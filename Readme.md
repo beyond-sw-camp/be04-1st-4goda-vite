@@ -543,8 +543,8 @@ REFERENCES `post` (
 <details>
 <summary><b>회원</b></summary>
     <div>
-        <details>
-        <summary><b>&nbsp; &nbsp; 추가 이미지</b></summary>
+        &nbsp; &nbsp; <details>
+        <summary><b>추가 이미지</b></summary>
         </details>
     </div>
 </details>
