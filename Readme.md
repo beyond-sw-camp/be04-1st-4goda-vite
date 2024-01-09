@@ -587,35 +587,52 @@ REFERENCES `post` (
          <summary><b>초대장템플릿 업로드</b></summary>
              <p><img src="PNG/Captures/invitation_template/초대장템플릿_초대장템플릿 업로드2.png"/></p>
              <p><img src="PNG/Captures/invitation_template/초대장템플릿_초대장템플릿 업로드.png"/></p>
+        </details>
+        <details>
         <summary><b>초대장템플릿 검색</b></summary>
              <p><img src="PNG/Captures/invitation_template/초대장템플릿_초대장템플릿검색.png"/></p>
              <p><img src="PNG/Captures/invitation_template/초대장템플릿_초대장템플릿검색2.png"/></p>
+        </details>
+        <details>
         <summary><b>초대장템플릿 구매가능 조회</b></summary>
              <p><img src="PNG/Captures/invitation_template/초대장템플릿_초대장템플릿구매가능.png"/></p>
              <p><img src="PNG/Captures/invitation_template/초대장템플릿_초대장템플릿구매가능2.png"/></p>
+        </details>
+        <details>
         <summary><b>초대장템플릿 목록확인</b></summary>
              <p><img src="PNG/Captures/invitation_template/초대장템플릿_초대장템플릿목록확인.png"/></p>
              <p><img src="PNG/Captures/invitation_template/초대장템플릿_초대장템플릿목록확인2.png"/></p>
+        </details>
+        <details>
         <summary><b>초대장템플릿 삭제</b></summary>
              <p><img src="PNG/Captures/invitation_template/초대장템플릿_초대장템플릿삭제.png"/></p>
              <p><img src="PNG/Captures/invitation_template/초대장템플릿_초대장템플릿삭제2.png"/></p>
+        </details>
+        <details>
         <summary><b>초대장템플릿 수정</b></summary>
              <p><img src="PNG/Captures/invitation_template/초대장템플릿_초대장템플릿수정.png"/></p>
              <p><img src="PNG/Captures/invitation_template/초대장템플릿_초대장템플릿수정2.png"/></p>
+        </details>
+        <details>
         <summary><b>초대장템플릿 좋아요</b></summary>
              <p><img src="PNG/Captures/invitation_template/초대장템플릿_초대장템플릿좋아요.png"/></p>
              <p><img src="PNG/Captures/invitation_template/초대장템플릿_초대장템플릿좋아요2.png"/></p>
+        </details>
+        <details>
         <summary><b>초대장템플릿 좋아요취소</b></summary>
              <p><img src="PNG/Captures/invitation_template/초대장템플릿_초대장템플릿좋아요취소.png"/></p>
              <p><img src="PNG/Captures/invitation_template/초대장템플릿_초대장템플릿좋아요취소2.png"/></p>
+        </details>
+        <details>
         <summary><b>초대장템플릿 추천순정렬</b></summary>
              <p><img src="PNG/Captures/invitation_template/초대장템플릿_초대장템플릿추천순정렬.png"/></p>
              <p><img src="PNG/Captures/invitation_template/초대장템플릿_초대장템플릿추천순정렬2.png"/></p>
+        </details>
+        <details>
       <summary><b>초대장템플릿 카테고리별 조회</b></summary>
              <p><img src="PNG/Captures/invitation_template/초대장템플릿_초대장템플릿카테고리별.png"/></p>
              <p><img src="PNG/Captures/invitation_template/초대장템플릿_초대장템플릿카테고리별2.png"/></p>
-         </details>
-    </div>
+        </details>
 </details>
 
 <details>
