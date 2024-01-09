@@ -663,7 +663,6 @@ REFERENCES `post` (
 
 <details>
 <summary><b>✍️게시글</b></summary>
-<summary><b>✍️게시글</b></summary>
     <div>
          <details>
          <summary><b>게시글 문의사항 작성</b></summary>
