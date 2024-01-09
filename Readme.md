@@ -69,10 +69,10 @@
 
 ## 📝 WBS
 
+[WBS 바로가기](https://docs.google.com/spreadsheets/d/1tX0TRsPvECfPtoJETw0iKIp1Ami4aau9lG6vSYuidu4/edit#gid=1531810588)
 <p align="center"><img src="https://github.com/beyond-sw-camp/be04-1st-4goda-vite/blob/main/PNG/Readme/wbs.png"/></p>
 
 ## 📘 요구사항
-
 <details>
 <summary><b>VITE 상세정책</b></summary>
     
@@ -108,8 +108,8 @@
         - 호스트에게 모인 금액 전송(은행API의 기능)
 </details>
 
+[요구사항 명세서 바로가기](https://docs.google.com/spreadsheets/d/1tX0TRsPvECfPtoJETw0iKIp1Ami4aau9lG6vSYuidu4/edit#gid=1162915854)
 <p align="center"><img src="https://github.com/beyond-sw-camp/be04-1st-4goda-vite/blob/main/PNG/Readme/요구사항 명세서.png"/></p>
-
 
 
 ## 💭 DB 모델링
@@ -136,6 +136,8 @@
 (R)
 <p align="center"><img src="https://github.com/beyond-sw-camp/be04-1st-4goda-vite/blob/main/PNG/Readme/물리모델링_수정2.PNG"/></p>
 </details>
+
+## 💾 M
 
 ## 📖 DDL
 <details>
@@ -607,6 +609,7 @@ REFERENCES `post` (
 
 ## 📃 테스트케이스 문서
 
+[테스트케이스 바로가기](https://docs.google.com/spreadsheets/d/1tX0TRsPvECfPtoJETw0iKIp1Ami4aau9lG6vSYuidu4/edit#gid=427773154)
 <p align="center"><img src="https://github.com/beyond-sw-camp/be04-1st-4goda-vite/blob/main/PNG/Readme/테스트케이스_수정.png"/></p>
 
 ## 🏁 테스트케이스 
