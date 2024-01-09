@@ -541,6 +541,7 @@ REFERENCES `post` (
 </details>
 
 ## ✒️ 주요 쿼리
+<details>
 	<summary><b>이벤트RSVP UPDATE</b></summary>
          <p><img src="PNG/Captures/user/회원_회원_탈퇴1.png"/></p>
 	 <p><img src="PNG/Captures/user/회원_회원_탈퇴2.png"/></p>
@@ -587,7 +588,7 @@ REFERENCES `post` (
         
         <summary><b>초대장 템플릿 환불3</b></summary>
          <p><img src="PNG/Captures/invitation_template/초대장템플릿_환불3.gif"/></p>
-	 
+</details>	 
 
 ## 📃 테스트케이스 문서
 
