@@ -706,6 +706,7 @@ REFERENCES `post` (
 </details>
 
 ***
+
 <details>
 <summary><b>📮초대장템플릿</b></summary>
     <div>
@@ -761,7 +762,8 @@ REFERENCES `post` (
         </details>
 </details>
 
-	    ***
+***
+
 <details>
 <summary><b>🎁선물</b></summary>
     <div>
@@ -777,6 +779,7 @@ REFERENCES `post` (
         </details>
     </div>
 </details>
+
 ***
 <details>
 <summary><b>🗒️게스트명단</b></summary>
