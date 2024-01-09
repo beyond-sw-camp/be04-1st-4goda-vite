@@ -636,17 +636,17 @@ REFERENCES `post` (
          <p><img src="PNG/Captures/event/이벤트_이벤트좋아요1.png"/></p>
          <p><img src="PNG/Captures/event/이벤트_이벤트좋아요2.png"/></p>
          </details>
-		 <details>
+	 <details>
          <summary><b>회원별 작성 이벤트 댓글 조회</b></summary>
          <p><img src="PNG/Captures/event/이벤트_회원별작성이벤트댓글조회1.png"/></p>
          <p><img src="PNG/Captures/event/이벤트_회원별작성이벤트댓글조회2.png"/></p>
          </details>
-		 <details>
+	 <details>
          <summary><b>이벤트 주최 회원 닉네임 확인</b></summary>
          <p><img src="PNG/Captures/event/이벤트_이벤트주최회원닉네임확인1.png"/></p>
          <p><img src="PNG/Captures/event/이벤트_이벤트주최회원닉네임확인2.png"/></p>
          </details>
-		 <details>
+	 <details>
          <summary><b>이벤트카테고리별 이벤트 목록 확인</b></summary>
          <p><img src="PNG/Captures/event/이벤트_이벤트카테고리별이벤목록확인1.png"/></p>
          <p><img src="PNG/Captures/event/이벤트_이벤트카테고리별이벤트목록확인2.png"/></p>
@@ -657,12 +657,12 @@ REFERENCES `post` (
 <details>
 <summary><b>💸결제</b></summary>
     <div>
-		<details>
+	 <details>
          <summary><b>결제하기</b></summary>
          <p><img src="PNG/Captures/payment/결제_결제하기1.png"/></p>
          <p><img src="PNG/Captures/payment/결제_결제하기2.png"/></p>
          </details>
-		<details>
+	 <details>
          <summary><b>결제내역 확인</b></summary>
          <p><img src="PNG/Captures/payment/결제_결제내역확인1.png"/></p>
          <p><img src="PNG/Captures/payment/결제_결제내역확인2.png"/></p>
@@ -671,32 +671,28 @@ REFERENCES `post` (
 </details>
 
 <details>
-<summary><b>>💱환불</b></summary>
+<summary><b>💱환불</b></summary>
     <div>
          <details>
          <summary><b>환불 신청</b></summary>
          <p><img src="PNG/Captures/refund/환불_환불신청1.png"/></p>
 	 <p><img src="PNG/Captures/refund/환불_환불신청2.png"/></p>
          </details>
-	 <details>
          <details>
          <summary><b>환불 완료</b></summary>
          <p><img src="PNG/Captures/refund/환불_환불완료1.png"/></p>
 	 <p><img src="PNG/Captures/refund/환불_환불완료2.png"/></p>
          </details>
-	 <details>
          <details>
          <summary><b>환불내역 확인</b></summary>
          <p><img src="PNG/Captures/refund/환불_환불내역확인1.png"/></p>
 	 <p><img src="PNG/Captures/refund/환불_환불내역확인12.png"/></p>
          </details>
-	 <details>
          <details>
          <summary><b>초대장템플릿별 환불내역 확인</b></summary>
          <p><img src="PNG/Captures/refund/환불_초대장템플릿별환불내역확인1.png"/></p>
 	 <p><img src="PNG/Captures/refund/환불_초대장템플릿별환불내역확인2.png"/></p>
          </details>
-	 <details>
          <details>
          <summary><b>선물별 환불 내역 확인</b></summary>
          <p><img src="PNG/Captures/refund/환불_선물별환불내역확인1.png"/></p>
