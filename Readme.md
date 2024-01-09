@@ -552,15 +552,18 @@ REFERENCES `post` (
          <summary><b>이벤트 참석자 명단</b></summary>
          <p><img src="PNG/Captures/event/이벤트참석자명단.gif"/></p>
 	 <p><img src="PNG/Captures/event/이벤트_참석자_명단3.gif"/></p>
+	 <p><img src="PNG/Captures/event/이벤트참석자명단_캡쳐.PNG"/></p>
 	</details>
 	<details>
          <summary><b>이벤트발송 업데이트</b></summary>
          <p><img src="PNG/Captures/event/이벤트발송_업데이트.gif"/></p>
+	 <p><img src="PNG/Captures/event/이벤트발송_업데이트_캡쳐.PNG"/></p>
 	</details>
 	<details>      
 	<summary><b>이벤트 좋아요</b></summary>
          <p><img src="PNG/Captures/event/이벤트 좋아요 트리거 생성.gif"/></p>
 	 <p><img src="PNG/Captures/event/이벤트 좋아요 실행.gif"/></p>
+	 <p><img src="PNG/Captures/event/이벤트좋아요_캡쳐.PNG"/></p>
 	</details>
 	<details>
 	<summary><b>회원가입</b></summary>
@@ -569,6 +572,7 @@ REFERENCES `post` (
  	<details>
         <summary><b>회원등급 업데이트</b></summary>
              <p><img src="PNG/Captures/user/회원등급_업데이트.gif"/></p>
+	     <p><img src="PNG/Captures/user/회원등급_업데이트_캡쳐.PNG"/></p>
         </details>
         <details>
         <summary><b>회원등급별 할인 적용 금액 조회</b></summary>
@@ -577,10 +581,12 @@ REFERENCES `post` (
         <details>
         <summary><b>회원등급별 할인적용</b></summary>
              <p><img src="PNG/Captures/user/회원등급별_할인적용.gif"/></p>
+	     <p><img src="PNG/Captures/user/회원등급별_할인적용_캡쳐.PNG"/></p>
         </details>
         <details>
         <summary><b>회원별작성게시글확인</b></summary>
              <p><img src="PNG/Captures/user/회원별작성게시글확인.gif"/></p>
+	     <p><img src="PNG/Captures/user/회원별작성게시글확인_캡쳐.PNG"/></p>
         </details>
         <details>
         <summary><b>선물별 결제 회원 확인</b></summary>
@@ -588,22 +594,30 @@ REFERENCES `post` (
         </details>
         <details>
         <summary><b>선물결제</b></summary>
-             <p><img src="PNG/Captures/payment/선물결제.gif"/></p>        </details>
+             <p><img src="PNG/Captures/payment/선물결제.gif"/></p>    
+	     <p><img src="PNG/Captures/payment/선물결제_캡쳐.PNG"/></p>
+	</details>
         <details>
         <summary><b>초대장템플릿 결제</b></summary>
              <p><img src="PNG/Captures/payment/초대장템플릿__결제.gif"/></p>
+	     <p><img src="PNG/Captures/payment/초대장템플릿_결제1.PNG"/></p>
+	     <p><img src="PNG/Captures/payment/초대장템플릿_결제2.PNG"/></p>
         </details>
         <details>
         <summary><b>사용가능한 초대장템플릿 확인</b></summary>
              <p><img src="PNG/Captures/invitation_template/사용가능한_초대장템플릿확인.gif"/></p>
+	     <p><img src="PNG/Captures/invitation_template/사용가능한_초대장템플릿확인_캡쳐.PNG"/></p>
         </details>
         <details>
         <summary><b>초대장템플릿 인덱스생성</b></summary>
              <p><img src="PNG/Captures/invitation_template/초대장템플릿_인덱스생성.gif"/></p>
+	     <p><img src="PNG/Captures/invitation_template/초대장템플릿_인덱스생성_캡쳐.PNG"/></p>
         </details>
         <details>
         <summary><b>초대장 템플릿 환불</b></summary>
              <p><img src="PNG/Captures/invitation_template/초대장템플릿_환불3.gif"/></p>
+	     <p><img src="PNG/Captures/invitation_template/초대장템플릿_환불1.PNG"/></p>
+	     <p><img src="PNG/Captures/invitation_template/초대장템플릿_환불2.PNG"/></p>
         </details>
 </details> 
 
