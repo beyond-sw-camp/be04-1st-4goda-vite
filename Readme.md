@@ -545,22 +545,22 @@ REFERENCES `post` (
 <summary><b>🕵️‍♀️회원</b></summary>
     <div>
          <details>
-         <summary><b>회원가입</b></summary>
+         <summary><b>1. 회원가입</b></summary>
          <p><img src="PNG/Captures/user/회원_회원가입1.png"/></p>
 	 <p><img src="PNG/Captures/user/회원_회원가입2.png"/></p>
          </details>
 	 <details>
-         <summary><b>비밀번호 찾기</b></summary>
+         <summary><b>2. 비밀번호 찾기</b></summary>
          <p><img src="PNG/Captures/user/회원_비밀번호_찾기1.png"/></p>
 	 <p><img src="PNG/Captures/user/회원_비밀번호_찾기2.png"/></p>
          </details>
 	 <details>
-         <summary><b>회원정보 수정</b></summary>
+         <summary><b>3. 회원정보 수정</b></summary>
          <p><img src="PNG/Captures/user/회원_회원정보_수정1.png"/></p>
 	 <p><img src="PNG/Captures/user/회원_회원정보_수정2.png"/></p>
          </details>
 	 <details>
-         <summary><b>회원 탈퇴</b></summary>
+         <summary><b>4. 회원 탈퇴</b></summary>
          <p><img src="PNG/Captures/user/회원_회원_탈퇴1.png"/></p>
 	 <p><img src="PNG/Captures/user/회원_회원_탈퇴2.png"/></p>
          </details>
@@ -591,6 +591,7 @@ REFERENCES `post` (
 
 <details>
 <summary><b>✨이벤트</b></summary>
+	---
     <div>
          <details>
          <summary><b>이벤트 삭제</b></summary>
