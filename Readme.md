@@ -585,7 +585,7 @@ REFERENCES `post` (
     <div>
          <details>
          <summary><b>추가 이미지</b></summary>
-         <p><img src="링크 바꿔서 쓰기"/></p>
+         <p><img src="PNG/Captures/invitation_template/초대장템플릿_초대장템플릿 업로드.png"/></p>
          </details>
     </div>
 </details>
