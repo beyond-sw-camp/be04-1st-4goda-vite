@@ -136,6 +136,8 @@
 </details>
 
 ## 📖 DDL
+<details>
+<summary><b>VITE DDL</b></summary>
 ```
 -- 이벤트(event) 테이블 생성
 CREATE TABLE `event` (
@@ -533,6 +535,7 @@ REFERENCES `post` (
     `post_id`
 );
 ```
+</details>
 
 ## ✒️ 주요 쿼리
 
