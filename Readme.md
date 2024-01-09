@@ -550,8 +550,8 @@ REFERENCES `post` (
 ## ✒️ 주요 쿼리
 <details>
 	<summary><b>이벤트RSVP UPDATE</b></summary>
-         <p><img src="PNG/Captures/user/회원_회원_탈퇴1.png"/></p>
-	 <p><img src="PNG/Captures/user/회원_회원_탈퇴2.png"/></p>
+         <p><img src="PNG/Captures/event/이벤트RSVP_UPDATE.gif"/></p>
+	 <p><img src="PNG/Captures/event/이벤트RSVP_UPDATE_캡쳐.PNG"/></p>
 	</details>
 	<details>
          <summary><b>이벤트 참석자 명단</b></summary>
