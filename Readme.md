@@ -655,8 +655,9 @@ REFERENCES `post` (
 <summary><b>🗒️게스트명단</b></summary>
     <div>
          <details>
-         <summary><b>추가 이미지</b></summary>
-         <p><img src="링크 바꿔서 쓰기"/></p>
+         <summary><b>게스트명단 확인</b></summary>
+         <p><img src="PNG/Captures/guest_list/게스트명단_확인1.png"/></p>
+         <p><img src="PNG/Captures/guest_list/게스트명단_확인2.png"/></p>
          </details>
     </div>
 </details>
