@@ -136,6 +136,403 @@
 </details>
 
 ## 📖 DDL
+```
+-- 이벤트(event) 테이블 생성
+CREATE TABLE `event` (
+    `event_id`  INT NOT NULL AUTO_INCREMENT PRIMARY KEY COMMENT '이메일 형식',             -- 이벤트ID
+    `event_title`   VARCHAR(100)    NOT NULL,                                           -- 이벤트제목
+    `event_date`    DATETIME    NOT NULL,                                               -- 시작날짜및시간
+    `event_place`   VARCHAR(30),                                                        -- 장소
+    `dress_code`    VARCHAR(20),                                                        -- 드레스코드
+    `event_contents`    TEXT,                                                           -- 이벤트내용
+    `event_category_id` INT NOT NULL COMMENT '이벤트카테고리의 카테고리ID',                    -- 카테고리ID
+    `user_id`   VARCHAR(50) NOT NULL COMMENT '회원의 회원ID',                              -- 회원ID(호스트)
+    `invitation_template_id`    INT NOT NULL COMMENT '초대장템플릿의 초대장템플릿ID',           -- 초대장템플릿ID
+    `is_public` BOOLEAN NOT NULL    DEFAULT false   COMMENT 'true(공개), false(비공개)',   -- 이벤트공개여부
+    `event_like_cnt`    INT NOT NULL    DEFAULT 0,                                      -- 좋아요수
+    `event_delete`  BOOLEAN NOT NULL    DEFAULT false                                   -- 이벤트삭제여부
+);
+
+-- 이벤트댓글(comment) 테이블 생성
+CREATE TABLE `comment` (
+    `comment_id`    INT NOT NULL AUTO_INCREMENT PRIMARY KEY,        -- 이벤트댓글ID
+    `comment_contents`  TEXT    NOT NULL,                           -- 댓글내용
+    `comment_time`  DATETIME DEFAULT CURRENT_TIMESTAMP NOT NULL,    -- 댓글작성시간
+    `event_id`  INT NOT NULL COMMENT '이벤트의 이벤트ID',               -- 이벤트ID
+    `user_id`   VARCHAR(50) NOT NULL COMMENT '회원의 회원ID',          -- 회원ID
+    `image_id`  INT COMMENT '이미지의 이미지ID',                        -- 이미지ID
+    `comment_delete`    BOOLEAN NOT NULL    DEFAULT false           -- 댓글삭제여부
+);
+
+-- 결제(payment) 테이블 생성
+CREATE TABLE `payment` (
+    `payment_id`    INT NOT NULL AUTO_INCREMENT PRIMARY KEY,                    -- 결제ID
+    `payment_date`  DATETIME    NOT NULL DEFAULT CURRENT_TIMESTAMP(),           -- 결제일자
+    `payment_amount`    INT NOT NULL    DEFAULT 0,                              -- 결제금액
+    `payment_method`    VARCHAR(30) NOT NULL    COMMENT '카드, 무통장입금 등',       -- 결제수단
+    `user_id`   VARCHAR(50) NOT NULL COMMENT '회원의 회원ID'                       -- 회원ID
+);
+
+-- 초대장템플릿(invitation_template) 테이블 생성
+CREATE TABLE `invitation_template` (
+    `invitation_template_id`    INT NOT NULL AUTO_INCREMENT PRIMARY KEY,    -- 초대장템플릿ID
+    `invitation_template_name`  VARCHAR(100)    NOT NULL UNIQUE,            -- 초대장템플릿이름
+    `invitation_font`   VARCHAR(30) NOT NULL,                               -- 초대장글씨체
+    `invitation_price`  INT NOT NULL    DEFAULT 0,                          -- 초대장가격
+    `image_id`  INT NOT NULL COMMENT '회원의 회원ID',                          -- 이미지ID
+    `invitation_like_cnt`   INT NOT NULL    DEFAULT 0,                      -- 좋아요수
+    `template_delete`   BOOLEAN NOT NULL    DEFAULT false                   -- 초대장템플릿삭제여부
+);
+
+-- 선물(present) 테이블 생성
+CREATE TABLE `present` (
+    `present_id`    INT NULL AUTO_INCREMENT PRIMARY KEY,                            -- 선물ID
+    `present_name`  VARCHAR(100)    NOT NULL,                                       -- 선물이름
+    `present_price` INT NOT NULL,                                                   -- 선물가격
+    `present_total` INT NOT NULL    DEFAULT 0   COMMENT '게스트들이 결제해서 모인 돈',     -- 모인금액
+    `event_id`  INT NOT NULL COMMENT '이벤트의 이벤트ID',                               -- 이벤트ID
+    `present_delete`    BOOLEAN NOT NULL    DEFAULT false                           -- 선물삭제여부
+);
+
+-- 회원등급(grade) 테이블 생성
+CREATE TABLE `grade` (
+    `grade_name`    VARCHAR(10) NOT NULL    DEFAULT '일반' COMMENT 'VIP/VVIP 등',  -- 등급이름
+    `grade_benefit` VARCHAR(1000)   NOT NULL,                                    -- 등급혜택
+    `grade_standard`    INT NOT NULL    COMMENT '총 결제 금액에 따른 회원 등급 구분'      -- 금액기준
+);
+
+-- 이벤트카테고리(event_category) 테이블 생성
+CREATE TABLE `event_category` (
+    `event_category_id` INT NOT NULL AUTO_INCREMENT PRIMARY KEY,    				  -- 카테고리ID
+    `event_category_type`   VARCHAR(20) NOT NULL,                   				  -- 카테고리종류
+    `is_personal`   BOOLEAN NOT NULL    DEFAULT true COMMENT 'true(비공개), false(공개)' -- 상세구분
+);
+
+-- 게스트명단(guest_list) 테이블 생성
+CREATE TABLE `guest_list` (
+    `guest_id`  INT NOT NULL AUTO_INCREMENT PRIMARY KEY,                                    -- 게스트ID
+    `guest_email`   VARCHAR(50),                                                            -- 이메일
+    `guest_phone`   VARCHAR(13),                                                            -- 전화번호
+    `is_attended`   BOOLEAN NOT NULL    DEFAULT false COMMENT 'true(참석), false(불참)',      -- 참석여부
+    `send_time` DATETIME    DEFAULT CURRENT_TIMESTAMP NOT NULL,                             -- 이벤트발송시간
+    `is_send`   BOOLEAN NOT NULL    DEFAULT false COMMENT 'true(발송성공), false(발송실패)',    -- 이벤트발송성공여부
+    `event_id`  INT NOT NULL COMMENT '이벤트의 이벤트ID'                                       -- 이벤트ID
+);
+
+-- 선물결제(present_payment) 테이블 생성
+CREATE TABLE `present_payment` (
+    `payment_id`    INT NOT NULL COMMENT '결제의 결제ID',    -- 결제ID
+    `present_id`    INT NOT NULL COMMENT '선물의 선물ID'     -- 선물ID
+);
+
+-- 초대장결제(invitation_payment) 테이블 생성
+CREATE TABLE `invitation_payment` (
+    `payment_id`    INT NOT NULL,                                                        -- 결제ID
+    `invitation_template_id`    INT NOT NULL COMMENT '초대장템플릿의 초대장템플릿ID',            -- 초대장템플릿ID
+    `is_available`  BOOLEAN NOT NULL DEFAULT TRUE COMMENT 'true(사용가능), false(사용불가)'   -- 사용가능여부
+);
+
+-- 환불(refund) 테이블 생성
+CREATE TABLE `refund` (
+    `refund_id` INT NOT NULL AUTO_INCREMENT PRIMARY KEY,                        -- 환불ID
+    `refund_state`  VARCHAR(30) NOT NULL    DEFAULT '신청'    COMMENT '신청/완료',  -- 환불상태
+    `refund_request_date`   DATETIME    NOT NULL DEFAULT CURRENT_TIMESTAMP,     -- 환불신청날짜
+    `refund_complete_date`  DATETIME,                                           -- 환불완료날짜
+    `payment_id`    INT NOT NULL COMMENT '결제의 결제ID'                           -- 결제ID
+);
+
+-- 회원별초대내역(user_invite) 테이블 생성
+CREATE TABLE `user_invite` (
+    `event_id`  INT NOT NULL COMMENT '이벤트의 이벤트ID',                                          -- 이벤트ID
+    `user_id`   VARCHAR(50) NOT NULL COMMENT '회원의 회원ID',                                     -- 회원ID
+    `is_invited`    BOOLEAN NOT NULL    DEFAULT false   COMMENT 'true(초대받음), false(초대함)'    -- 초대구분
+);
+
+-- 이미지(image) 테이블 생성
+CREATE TABLE `image` (
+    `image_id`  INT NOT NULL AUTO_INCREMENT PRIMARY KEY,    -- 이미지ID
+    `image_route`   VARCHAR(500)    NOT NULL,               -- 경로
+    `image_name`    VARCHAR(100)    NOT NULL,               -- 원본이미지이름
+    `image_type`    VARCHAR(30) NOT NULL                    -- 이미지구분
+);
+
+-- 이벤트좋아요관리(event_like) 테이블 생성
+CREATE TABLE `event_like` (
+    `event_id`  INT NOT NULL COMMENT '이벤트의 이벤트ID',      -- 이벤트ID
+    `user_id`   VARCHAR(50) NOT NULL COMMENT '회원의 회원ID'  -- 회원ID
+);
+
+-- 게시글(post) 테이블 생성
+CREATE TABLE `post` (
+    `post_id`   INT NOT NULL    AUTO_INCREMENT PRIMARY KEY,             -- 게시글ID
+    `post_title`    VARCHAR(100)    NOT NULL,                           -- 게시글제목
+    `post_type` VARCHAR(10) NOT NULL    COMMENT '문의사항/공지사항',         -- 게시글유형                    
+    `post_contents` TEXT    NOT NULL,                                   -- 게시글내용
+    `post_date` DATETIME    NOT NULL DEFAULT CURRENT_TIMESTAMP,         -- 게시글작성일
+    `report_category_id`    INT COMMENT '문의카테고리의 문의카테고리ID',        -- 문의카테고리ID
+    `user_id`   VARCHAR(50) NOT NULL    COMMENT '회원의 회원ID',           -- 작성자ID
+    `image_id`  INT COMMENT '이미지의 이미지ID',                            -- 이미지ID
+    `post_deleted`  BOOLEAN NOT NULL    DEFAULT false                   -- 게시글삭제여부
+);
+
+-- 문의카테고리(report_category) 테이블 생성
+CREATE TABLE `report_category` (
+    `report_category_id`    INT NOT NULL AUTO_INCREMENT PRIMARY KEY,      -- 문의카테고리ID
+    `report_type`   VARCHAR(40) NOT NULL    UNIQUE comment '스팸/욕설 등'    -- 문의종류
+);
+
+-- 초대장템플릿좋아요관리(invitation_template_like) 테이블 생성
+CREATE TABLE `invitation_template_like` (
+    `invitation_template_id`    INT NOT NULL COMMENT '초대장템플릿의 초대장템플릿ID',    -- 초대장템플릿ID
+    `user_id`   VARCHAR(30) NOT NULL    COMMENT '회원의 회원ID'                     -- 회원ID
+);
+
+-- 회원(user) 테이블 생성
+CREATE TABLE `user` (
+    `user_id`   VARCHAR(50) NOT NULL    COMMENT '이메일 형식',                                   -- 회원ID
+    `user_pw`   VARCHAR(20) NOT NULL,                                                         -- 비밀번호
+    `user_name` VARCHAR(12) NOT NULL,                                                         -- 회원이름
+    `user_phone`    VARCHAR(13) NOT NULL,                                                     -- 전화번호
+    `total_price`   INT NOT NULL    DEFAULT 0   COMMENT '결제 금액에 대한 총 합',                  -- 누적결제금액
+    `user_withdraw` DATETIME    NULL,                                                         -- 탈퇴일자
+    `grade_name`    VARCHAR(10) NOT NULL    DEFAULT '일반회원' COMMENT '일반회원/운영자 등',         -- 등급이름
+    `user_status`   VARCHAR(20) NOT NULL    DEFAULT '활성화'   COMMENT '활성화/계정정지/탈퇴 등',     -- 회원상태
+    `user_nickname` VARCHAR(15) NOT NULL    UNIQUE                                            -- 닉네임
+);
+
+-- 답변(reply) 테이블 생성
+CREATE TABLE `reply` (
+    `reply_id`  INT NOT NULL AUTO_INCREMENT PRIMARY KEY,                    -- 답변ID
+    `reply_contents`    TEXT    NOT NULL,                                   -- 답변내용
+    `reply_title`   VARCHAR(100)    NOT NULL,                               -- 답변제목
+    `user_id`   VARCHAR(50) NOT NULL    COMMENT '회원의 회원ID',               -- 관리자ID
+    `post_id`   INT NOT NULL COMMENT '게시글의 게시글ID',                       -- 게시글ID
+    `reply_deleted` BOOLEAN NOT NULL    DEFAULT false COMMENT 'true(삭제)'   -- 답변삭제여부
+);
+
+
+ALTER TABLE `grade` ADD CONSTRAINT `PK_GRADE` PRIMARY KEY (
+    `grade_name`
+);
+
+ALTER TABLE `present_payment` ADD CONSTRAINT `PK_PRESENT_PAYMENT` PRIMARY KEY (
+    `payment_id`,
+    `present_id`
+);
+
+ALTER TABLE `invitation_payment` ADD CONSTRAINT `PK_INVITATION_PAYMENT` PRIMARY KEY (
+    `payment_id`,
+    `invitation_template_id`
+);
+
+ALTER TABLE `user_invite` ADD CONSTRAINT `PK_USER_INVITE` PRIMARY KEY (
+    `event_id`,
+    `user_id`
+);
+
+ALTER TABLE `event_like` ADD CONSTRAINT `PK_EVENT_LIKE` PRIMARY KEY (
+    `event_id`,
+    `user_id`
+);
+
+ALTER TABLE `invitation_template_like` ADD CONSTRAINT `PK_INVITATION_TEMPLATE_LIKE` PRIMARY KEY (
+    `invitation_template_id`,
+    `user_id`
+);
+
+ALTER TABLE `user` ADD CONSTRAINT `PK_USER` PRIMARY KEY (
+    `user_id`
+);
+
+ALTER TABLE `event` ADD CONSTRAINT `FK_event_category_TO_event_1` FOREIGN KEY (
+    `event_category_id`
+)
+REFERENCES `event_category` (
+    `event_category_id`
+);
+
+ALTER TABLE `event` ADD CONSTRAINT `FK_user_TO_event_1` FOREIGN KEY (
+    `user_id`
+)
+REFERENCES `user` (
+    `user_id`
+);
+
+ALTER TABLE `event` ADD CONSTRAINT `FK_invitation_template_TO_event_1` FOREIGN KEY (
+    `invitation_template_id`
+)
+REFERENCES `invitation_template` (
+    `invitation_template_id`
+);
+
+ALTER TABLE `comment` ADD CONSTRAINT `FK_event_TO_comment_1` FOREIGN KEY (
+    `event_id`
+)
+REFERENCES `event` (
+    `event_id`
+);
+
+ALTER TABLE `comment` ADD CONSTRAINT `FK_user_TO_comment_1` FOREIGN KEY (
+    `user_id`
+)
+REFERENCES `user` (
+    `user_id`
+);
+
+ALTER TABLE `comment` ADD CONSTRAINT `FK_image_TO_comment_1` FOREIGN KEY (
+    `image_id`
+)
+REFERENCES `image` (
+    `image_id`
+);
+
+ALTER TABLE `payment` ADD CONSTRAINT `FK_user_TO_payment_1` FOREIGN KEY (
+    `user_id`
+)
+REFERENCES `user` (
+    `user_id`
+);
+
+ALTER TABLE `invitation_template` ADD CONSTRAINT `FK_image_TO_invitation_template_1` FOREIGN KEY (
+    `image_id`
+)
+REFERENCES `image` (
+    `image_id`
+);
+
+ALTER TABLE `present` ADD CONSTRAINT `FK_event_TO_present_1` FOREIGN KEY (
+    `event_id`
+)
+REFERENCES `event` (
+    `event_id`
+);
+
+ALTER TABLE `guest_list` ADD CONSTRAINT `FK_event_TO_guest_list_1` FOREIGN KEY (
+    `event_id`
+)
+REFERENCES `event` (
+    `event_id`
+);
+
+ALTER TABLE `present_payment` ADD CONSTRAINT `FK_payment_TO_present_payment_1` FOREIGN KEY (
+    `payment_id`
+)
+REFERENCES `payment` (
+    `payment_id`
+);
+
+ALTER TABLE `present_payment` ADD CONSTRAINT `FK_present_TO_present_payment_1` FOREIGN KEY (
+    `present_id`
+)
+REFERENCES `present` (
+    `present_id`
+);
+
+ALTER TABLE `invitation_payment` ADD CONSTRAINT `FK_payment_TO_invitation_payment_1` FOREIGN KEY (
+    `payment_id`
+)
+REFERENCES `payment` (
+    `payment_id`
+);
+
+ALTER TABLE `invitation_payment` ADD CONSTRAINT `FK_invitation_template_TO_invitation_payment_1` FOREIGN KEY (
+    `invitation_template_id`
+)
+REFERENCES `invitation_template` (
+    `invitation_template_id`
+);
+
+ALTER TABLE `refund` ADD CONSTRAINT `FK_payment_TO_refund_1` FOREIGN KEY (
+    `payment_id`
+)
+REFERENCES `payment` (
+    `payment_id`
+);
+
+ALTER TABLE `user_invite` ADD CONSTRAINT `FK_event_TO_user_invite_1` FOREIGN KEY (
+    `event_id`
+)
+REFERENCES `event` (
+    `event_id`
+);
+
+ALTER TABLE `user_invite` ADD CONSTRAINT `FK_user_TO_user_invite_1` FOREIGN KEY (
+    `user_id`
+)
+REFERENCES `user` (
+    `user_id`
+);
+
+ALTER TABLE `event_like` ADD CONSTRAINT `FK_event_TO_event_like_1` FOREIGN KEY (
+    `event_id`
+)
+REFERENCES `event` (
+    `event_id`
+);
+
+ALTER TABLE `event_like` ADD CONSTRAINT `FK_user_TO_event_like_1` FOREIGN KEY (
+    `user_id`
+)
+REFERENCES `user` (
+    `user_id`
+);
+
+ALTER TABLE `post` ADD CONSTRAINT `FK_report_category_TO_post_1` FOREIGN KEY (
+    `report_category_id`
+)
+REFERENCES `report_category` (
+    `report_category_id`
+);
+
+ALTER TABLE `post` ADD CONSTRAINT `FK_user_TO_post_1` FOREIGN KEY (
+    `user_id`
+)
+REFERENCES `user` (
+    `user_id`
+);
+
+ALTER TABLE `post` ADD CONSTRAINT `FK_image_TO_post_1` FOREIGN KEY (
+    `image_id`
+)
+REFERENCES `image` (
+    `image_id`
+);
+
+ALTER TABLE `invitation_template_like` ADD CONSTRAINT `FK_invitation_template_TO_invitation_template_like_1` FOREIGN KEY (
+    `invitation_template_id`
+)
+REFERENCES `invitation_template` (
+    `invitation_template_id`
+);
+
+ALTER TABLE `invitation_template_like` ADD CONSTRAINT `FK_user_TO_invitation_template_like_1` FOREIGN KEY (
+    `user_id`
+)
+REFERENCES `user` (
+    `user_id`
+);
+
+ALTER TABLE `user` ADD CONSTRAINT `FK_grade_TO_user_1` FOREIGN KEY (
+    `grade_name`
+)
+REFERENCES `grade` (
+    `grade_name`
+);
+
+ALTER TABLE `reply` ADD CONSTRAINT `FK_user_TO_reply_1` FOREIGN KEY (
+    `user_id`
+)
+REFERENCES `user` (
+    `user_id`
+);
+
+ALTER TABLE `reply` ADD CONSTRAINT `FK_post_TO_reply_1` FOREIGN KEY (
+    `post_id`
+)
+REFERENCES `post` (
+    `post_id`
+);
+```
 
 ## ✒️ 주요 쿼리
 
