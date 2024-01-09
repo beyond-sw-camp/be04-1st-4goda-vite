@@ -137,7 +137,12 @@
 <p align="center"><img src="https://github.com/beyond-sw-camp/be04-1st-4goda-vite/blob/main/PNG/Readme/물리모델링_수정2.PNG"/></p>
 </details>
 
-## 💾 M
+## 💾 Replication
+> Master-slave replication은 데이터베이스에서 사용되는 기술로, 하나의 중앙 서버(마스터)가 있고 여러 복제 서버(슬레이브)가 마스터의 사본을 가지는 것입니다. 이는 시스템이 고장나거나 성능이 떨어져도 서비스가 계속되게 하며, 읽기 작업을 분산해 더 빠르게 응답하고 데이터를 안전하게 보관할 수 있습니다. 또한, 여러 지리적 위치에 데이터를 분산하여 전체 시스템의 성능과 안정성을 향상시킬 수 있습니다.
+
+<p align="center"><img src="https://github.com/beyond-sw-camp/be04-1st-4goda-vite/blob/main/PNG/Readme/master_slave_structure.png"/></p>
+<p align="center"><img src="https://github.com/beyond-sw-camp/be04-1st-4goda-vite/blob/main/PNG/Readme/master_slave_connection.png"/></p>
+
 
 ## 📖 DDL
 <details>
