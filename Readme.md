@@ -544,8 +544,46 @@ REFERENCES `post` (
 <summary><b>🕵️‍♀️회원</b></summary>
     <div>
          <details>
-         <summary><b>추가 이미지</b></summary>
-         <p><img src="링크 바꿔서 쓰기"/></p>
+         <summary><b>회원가입</b></summary>
+         <p><img src="PNG/Captures/user/회원_회원가입1.png"/></p>
+	 <p><img src="PNG/Captures/user/회원_회원가입2.png"/></p>
+         </details>
+	 <details>
+         <summary><b>비밀번호 찾기</b></summary>
+         <p><img src="PNG/Captures/user/회원_비밀번호_찾기1.png"/></p>
+	 <p><img src="PNG/Captures/user/회원_비밀번호_찾기2.png"/></p>
+         </details>
+	 <details>
+         <summary><b>회원정보 수정</b></summary>
+         <p><img src="PNG/Captures/user/회원_회원정보_수정1.png"/></p>
+	 <p><img src="PNG/Captures/user/회원_회원정보_수정2.png"/></p>
+         </details>
+	 <details>
+         <summary><b>회원 탈퇴</b></summary>
+         <p><img src="PNG/Captures/user/회원_회원_탈퇴1.png"/></p>
+	 <p><img src="PNG/Captures/user/회원_회원_탈퇴2.png"/></p>
+         </details>
+	 <details>
+         <summary><b>초대 내역 확인</b></summary>
+         <p><img src="PNG/Captures/user/회원_초대내역확인_초대받았을때1.png"/></p>
+         <p><img src="PNG/Captures/user/회원_초대내역확인_초대받았을때2.png"/></p>
+	 <p><img src="PNG/Captures/user/회원_초대내역확인_초대했을때1.png"/></p>
+	 <p><img src="PNG/Captures/user/회원_초대내역확인_초대했을때2.png"/></p>
+         </details>
+	 <details>
+         <summary><b>회원 상태 관리</b></summary>
+         <p><img src="PNG/Captures/user/회원_회원상태관리1.png"/></p>
+	 <p><img src="PNG/Captures/user/회원_회원상태관리2.png"/></p>
+         </details>
+	 <details>
+         <summary><b>회원ID 검색</b></summary>
+         <p><img src="PNG/Captures/user/회원_회원ID검색1.png"/></p>
+	 <p><img src="PNG/Captures/user/회원_회원ID검색2.png"/></p>
+         </details>				 
+	 <details>
+         <summary><b>닉네임 검색</b></summary>
+         <p><img src="PNG/Captures/user/회원_닉네임검색1.png"/></p>
+	 <p><img src="PNG/Captures/user/회원_닉네임검색2.png"/></p>
          </details>
     </div>
 </details>
@@ -631,12 +669,38 @@ REFERENCES `post` (
          </details>
     </div>
 </details>
+
 <details>
-<summary><b>💱환불</b></summary>
+<summary><b>>💱환불</b></summary>
     <div>
          <details>
-         <summary><b>추가 이미지</b></summary>
-         <p><img src="링크 바꿔서 쓰기"/></p>
+         <summary><b>환불 신청</b></summary>
+         <p><img src="PNG/Captures/refund/환불_환불신청1.png"/></p>
+	 <p><img src="PNG/Captures/refund/환불_환불신청2.png"/></p>
+         </details>
+	 <details>
+         <details>
+         <summary><b>환불 완료</b></summary>
+         <p><img src="PNG/Captures/refund/환불_환불완료1.png"/></p>
+	 <p><img src="PNG/Captures/refund/환불_환불완료2.png"/></p>
+         </details>
+	 <details>
+         <details>
+         <summary><b>환불내역 확인</b></summary>
+         <p><img src="PNG/Captures/refund/환불_환불내역확인1.png"/></p>
+	 <p><img src="PNG/Captures/refund/환불_환불내역확인12.png"/></p>
+         </details>
+	 <details>
+         <details>
+         <summary><b>초대장템플릿별 환불내역 확인</b></summary>
+         <p><img src="PNG/Captures/refund/환불_초대장템플릿별환불내역확인1.png"/></p>
+	 <p><img src="PNG/Captures/refund/환불_초대장템플릿별환불내역확인2.png"/></p>
+         </details>
+	 <details>
+         <details>
+         <summary><b>선물별 환불 내역 확인</b></summary>
+         <p><img src="PNG/Captures/refund/환불_선물별환불내역확인1.png"/></p>
+	 <p><img src="PNG/Captures/refund/환불_선물별환불내역확인2.png"/></p>
          </details>
     </div>
 </details>
