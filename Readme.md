@@ -588,10 +588,7 @@ REFERENCES `post` (
          </details>
     </div>
 </details>
-
 ***
-___
-
 <details>
 <summary><b>✨이벤트</b></summary>
 	<div>
@@ -657,176 +654,176 @@ ___
          </details>
     </div>
 </details>
-
+***
 <details>
 <summary><b>💸결제</b></summary>
     <div>
 	 <details>
-         <summary><b>결제하기</b></summary>
+         <summary><b>1. 결제하기</b></summary>
          <p><img src="PNG/Captures/payment/결제_결제하기1.png"/></p>
          <p><img src="PNG/Captures/payment/결제_결제하기2.png"/></p>
          </details>
 	 <details>
-         <summary><b>결제내역 확인</b></summary>
+         <summary><b>2. 결제내역 확인</b></summary>
          <p><img src="PNG/Captures/payment/결제_결제내역확인1.png"/></p>
          <p><img src="PNG/Captures/payment/결제_결제내역확인2.png"/></p>
          </details>
     </div>
 </details>
-
+***
 <details>
 <summary><b>💱환불</b></summary>
     <div>
          <details>
-         <summary><b>환불 신청</b></summary>
+         <summary><b>1. 환불 신청</b></summary>
          <p><img src="PNG/Captures/refund/환불_환불신청1.png"/></p>
 	 <p><img src="PNG/Captures/refund/환불_환불신청2.png"/></p>
          </details>
          <details>
-         <summary><b>환불 완료</b></summary>
+         <summary><b>2. 환불 완료</b></summary>
          <p><img src="PNG/Captures/refund/환불_환불완료1.png"/></p>
 	 <p><img src="PNG/Captures/refund/환불_환불완료2.png"/></p>
          </details>
          <details>
-         <summary><b>환불내역 확인</b></summary>
+         <summary><b>3. 환불내역 확인</b></summary>
          <p><img src="PNG/Captures/refund/환불_환불내역확인1.png"/></p>
 	 <p><img src="PNG/Captures/refund/환불_환불내역확인12.png"/></p>
          </details>
          <details>
-         <summary><b>초대장템플릿별 환불내역 확인</b></summary>
+         <summary><b>4. 초대장템플릿별 환불내역 확인</b></summary>
          <p><img src="PNG/Captures/refund/환불_초대장템플릿별환불내역확인1.png"/></p>
 	 <p><img src="PNG/Captures/refund/환불_초대장템플릿별환불내역확인2.png"/></p>
          </details>
          <details>
-         <summary><b>선물별 환불 내역 확인</b></summary>
+         <summary><b>5. 선물별 환불 내역 확인</b></summary>
          <p><img src="PNG/Captures/refund/환불_선물별환불내역확인1.png"/></p>
 	 <p><img src="PNG/Captures/refund/환불_선물별환불내역확인2.png"/></p>
          </details>
     </div>
 </details>
-
+***
 <details>
 <summary><b>📮초대장템플릿</b></summary>
     <div>
          <details>
-         <summary><b>초대장템플릿 업로드</b></summary>
+         <summary><b>1. 초대장템플릿 업로드</b></summary>
              <p><img src="PNG/Captures/invitation_template/초대장템플릿_초대장템플릿 업로드2.png"/></p>
              <p><img src="PNG/Captures/invitation_template/초대장템플릿_초대장템플릿 업로드.png"/></p>
         </details>
         <details>
-        <summary><b>초대장템플릿 검색</b></summary>
+        <summary><b>2. 초대장템플릿 검색</b></summary>
              <p><img src="PNG/Captures/invitation_template/초대장템플릿_초대장템플릿검색.png"/></p>
              <p><img src="PNG/Captures/invitation_template/초대장템플릿_초대장템플릿검색2.png"/></p>
         </details>
         <details>
-        <summary><b>초대장템플릿 구매가능 조회</b></summary>
+        <summary><b>3. 초대장템플릿 구매가능 조회</b></summary>
              <p><img src="PNG/Captures/invitation_template/초대장템플릿_초대장템플릿구매가능.png"/></p>
              <p><img src="PNG/Captures/invitation_template/초대장템플릿_초대장템플릿구매가능2.png"/></p>
         </details>
         <details>
-        <summary><b>초대장템플릿 목록확인</b></summary>
+        <summary><b>4. 초대장템플릿 목록확인</b></summary>
              <p><img src="PNG/Captures/invitation_template/초대장템플릿_초대장템플릿목록확인.png"/></p>
              <p><img src="PNG/Captures/invitation_template/초대장템플릿_초대장템플릿목록확인2.png"/></p>
         </details>
         <details>
-        <summary><b>초대장템플릿 삭제</b></summary>
+        <summary><b>5. 초대장템플릿 삭제</b></summary>
              <p><img src="PNG/Captures/invitation_template/초대장템플릿_초대장템플릿삭제.png"/></p>
              <p><img src="PNG/Captures/invitation_template/초대장템플릿_초대장템플릿삭제2.png"/></p>
         </details>
         <details>
-        <summary><b>초대장템플릿 수정</b></summary>
+        <summary><b>6. 초대장템플릿 수정</b></summary>
              <p><img src="PNG/Captures/invitation_template/초대장템플릿_초대장템플릿수정.png"/></p>
              <p><img src="PNG/Captures/invitation_template/초대장템플릿_초대장템플릿수정2.png"/></p>
         </details>
         <details>
-        <summary><b>초대장템플릿 좋아요</b></summary>
+        <summary><b>7. 초대장템플릿 좋아요</b></summary>
              <p><img src="PNG/Captures/invitation_template/초대장템플릿_초대장템플릿좋아요.png"/></p>
              <p><img src="PNG/Captures/invitation_template/초대장템플릿_초대장템플릿좋아요2.png"/></p>
         </details>
         <details>
-        <summary><b>초대장템플릿 좋아요취소</b></summary>
+        <summary><b>8. 초대장템플릿 좋아요취소</b></summary>
              <p><img src="PNG/Captures/invitation_template/초대장템플릿_초대장템플릿좋아요취소.png"/></p>
              <p><img src="PNG/Captures/invitation_template/초대장템플릿_초대장템플릿좋아요취소2.png"/></p>
         </details>
         <details>
-        <summary><b>초대장템플릿 추천순정렬</b></summary>
+        <summary><b>9. 초대장템플릿 추천순정렬</b></summary>
              <p><img src="PNG/Captures/invitation_template/초대장템플릿_초대장템플릿추천순정렬.png"/></p>
              <p><img src="PNG/Captures/invitation_template/초대장템플릿_초대장템플릿추천순정렬2.png"/></p>
         </details>
         <details>
-      <summary><b>초대장템플릿 카테고리별 조회</b></summary>
+      <summary><b>10. 초대장템플릿 카테고리별 조회</b></summary>
              <p><img src="PNG/Captures/invitation_template/초대장템플릿_초대장템플릿카테고리별.png"/></p>
              <p><img src="PNG/Captures/invitation_template/초대장템플릿_초대장템플릿카테고리별2.png"/></p>
         </details>
 </details>
-
+***
 <details>
 <summary><b>🎁선물</b></summary>
     <div>
          <details>
-         <summary><b>선물 등록</b></summary>
+         <summary><b>1. 선물 등록</b></summary>
              <p><img src="PNG/Captures/present/선물_선물등록.png"/></p>
              <p><img src="PNG/Captures/present/선물_선물등록2.png"/></p>
         </details>
         <details>
-        <summary><b>선물 모인금액 확인</b></summary>
+        <summary><b>2. 선물 모인금액 확인</b></summary>
              <p><img src="PNG/Captures/present/선물_선물모인금액확인.png"/></p>
              <p><img src="PNG/Captures/present/선물_선물모인금액확인2.png"/></p>
         </details>
     </div>
 </details>
-
+***
 <details>
 <summary><b>🗒️게스트명단</b></summary>
     <div>
          <details>
-         <summary><b>게스트명단 확인</b></summary>
+         <summary><b>1. 게스트명단 확인</b></summary>
          <p><img src="PNG/Captures/guest_list/게스트명단_확인1.png"/></p>
          <p><img src="PNG/Captures/guest_list/게스트명단_확인2.png"/></p>
          </details>
     </div>
 </details>
-
+***
 <details>
 <summary><b>✍️게시글</b></summary>
     <div>
          <details>
-         <summary><b>게시글 문의사항 작성</b></summary>
+         <summary><b>1. 게시글 문의사항 작성</b></summary>
              <p><img src="PNG/Captures/post/게시글_문의사항_작성_1.png"/></p>
              <p><img src="PNG/Captures/post/게시글_문의사항_작성_2.png"/></p>
         </details>
         <details>
-        <summary><b>게시글 문의사항 수정</b></summary>
+        <summary><b>2. 게시글 문의사항 수정</b></summary>
              <p><img src="PNG/Captures/post/문의사항 수정1.png"/></p>
              <p><img src="PNG/Captures/post/문의사항 수정2.png"/></p>
         </details>
         <details>
-        <summary><b>게시글 문의사항 답변</b></summary>
+        <summary><b>3. 게시글 문의사항 답변</b></summary>
              <p><img src="PNG/Captures/post/문의사항 답변1.png"/></p>
              <p><img src="PNG/Captures/post/문의사항 답변2.png"/></p>
         </details>
         <details>
-        <summary><b>게시글 문의사항 답변 수정</b></summary>
+        <summary><b>4. 게시글 문의사항 답변 수정</b></summary>
              <p><img src="PNG/Captures/post/문의사항 답변 수정1.png"/></p>
              <p><img src="PNG/Captures/post/문의사항 답변 수정2.png"/></p>
         </details>
         <details>
-        <summary><b>게시글 문의사항별 답변 확인</b></summary>
+        <summary><b>5. 게시글 문의사항별 답변 확인</b></summary>
              <p><img src="PNG/Captures/post/문의사항별 답변 확인1.png"/></p>
              <p><img src="PNG/Captures/post/문의사항별 답변 확인2.png"/></p>
         </details>
         <details>
-        <summary><b>게시글 공지사항 작성</b></summary>
+        <summary><b>6. 게시글 공지사항 작성</b></summary>
              <p><img src="PNG/Captures/post/공지사항 작성1.png"/></p>
              <p><img src="PNG/Captures/post/공지사항 작성2.png"/></p>
         </details>
         <details>
-        <summary><b>게시글 공지사항 삭제</b></summary>
+        <summary><b>7. 게시글 공지사항 삭제</b></summary>
              <p><img src="PNG/Captures/post/공지사항 삭제1.png"/></p>
              <p><img src="PNG/Captures/post/공지사항 삭제2.png"/></p>
         </details>
         <details>
-        <summary><b>게시글 공지사항 수정</b></summary>
+        <summary><b>8. 게시글 공지사항 수정</b></summary>
              <p><img src="PNG/Captures/post/공지사항 수정1.png"/></p>
              <p><img src="PNG/Captures/post/공지사항 수정2.png"/></p>
         </details>
