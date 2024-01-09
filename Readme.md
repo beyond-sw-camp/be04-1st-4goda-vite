@@ -538,9 +538,9 @@ REFERENCES `post` (
 
 ## ✒️ 주요 쿼리
 
-## 🏁 테스트케이스
-
 ## 📃 테스트케이스 문서
+
+## 🏁 테스트케이스 
 <details>
 <summary><b>🕵️‍♀️회원</b></summary>
     <div>
