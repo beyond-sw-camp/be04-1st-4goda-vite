@@ -540,6 +540,72 @@ REFERENCES `post` (
 
 ## ✒️ 주요 쿼리
 
+<details>
+<summary><b>회원</b></summary>
+    <details>
+    <summary><b>추가 이미지</b></summary>
+    
+    </details>
+</details>
+
+<details>
+<summary><b>이벤트</b></summary>
+<details>
+    <summary><b>추가 이미지</b></summary>
+    
+    </details>
+</details>
+
+<details>
+<summary><b>결제</b></summary>
+<details>
+    <summary><b>추가 이미지</b></summary>
+    
+    </details>
+</details>
+
+<details>
+<summary><b>환불</b></summary>
+<details>
+    <summary><b>추가 이미지</b></summary>
+    
+    </details>
+</details>
+
+<details>
+<summary><b>초대장템플릿</b></summary>
+<details>
+    <summary><b>추가 이미지</b></summary>
+    
+    </details>
+</details>
+
+<details>
+<summary><b>선물</b></summary>
+<details>
+    <summary><b>추가 이미지</b></summary>
+    
+    </details>
+</details>
+
+<details>
+<summary><b>게스트명단</b></summary>
+<details>
+    <summary><b>추가 이미지</b></summary>
+    
+    </details>
+</details>
+
+<details>
+<summary><b>게시글</b></summary>
+<details>
+    <summary><b>추가 이미지</b></summary>
+    
+    </details>
+</details>
+
+
+
 ## 🏁 테스트
 
 ## 👫 회고
