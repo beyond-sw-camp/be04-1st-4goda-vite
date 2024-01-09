@@ -588,6 +588,7 @@ REFERENCES `post` (
          </details>
     </div>
 </details>
+
 ***
 <details>
 <summary><b>✨이벤트</b></summary>
@@ -654,6 +655,7 @@ REFERENCES `post` (
          </details>
     </div>
 </details>
+
 ***
 <details>
 <summary><b>💸결제</b></summary>
@@ -670,6 +672,7 @@ REFERENCES `post` (
          </details>
     </div>
 </details>
+
 ***
 <details>
 <summary><b>💱환불</b></summary>
@@ -701,6 +704,7 @@ REFERENCES `post` (
          </details>
     </div>
 </details>
+
 ***
 <details>
 <summary><b>📮초대장템플릿</b></summary>
@@ -756,7 +760,8 @@ REFERENCES `post` (
              <p><img src="PNG/Captures/invitation_template/초대장템플릿_초대장템플릿카테고리별2.png"/></p>
         </details>
 </details>
-***
+
+	    ***
 <details>
 <summary><b>🎁선물</b></summary>
     <div>
@@ -783,6 +788,7 @@ REFERENCES `post` (
          </details>
     </div>
 </details>
+
 ***
 <details>
 <summary><b>✍️게시글</b></summary>
