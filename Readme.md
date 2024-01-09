@@ -639,9 +639,15 @@ REFERENCES `post` (
 <summary><b>🎁선물</b></summary>
     <div>
          <details>
-         <summary><b>추가 이미지</b></summary>
-         <p><img src="링크 바꿔서 쓰기"/></p>
-         </details>
+         <summary><b>선물 등록</b></summary>
+             <p><img src="PNG/Captures/present/선물_선물등록.png"/></p>
+             <p><img src="PNG/Captures/present/선물_선물등록2.png"/></p>
+        </details>
+        <details>
+        <summary><b>선물 모인금액 확인</b></summary>
+             <p><img src="PNG/Captures/present/선물_선물모인금액확인.png"/></p>
+             <p><img src="PNG/Captures/present/선물_선물모인금액확인2.png"/></p>
+        </details>
     </div>
 </details>
 
