@@ -545,6 +545,7 @@ REFERENCES `post` (
     <div>
          <details>
          <summary><b>추가 이미지</b></summary>
+         <p><img src="링크 바꿔서 쓰기"/></p>
          </details>
     </div>
 </details>
@@ -554,6 +555,7 @@ REFERENCES `post` (
     <div>
          <details>
          <summary><b>추가 이미지</b></summary>
+         <p><img src="링크 바꿔서 쓰기"/></p>
          </details>
     </div>
 </details>
@@ -563,6 +565,7 @@ REFERENCES `post` (
     <div>
          <details>
          <summary><b>추가 이미지</b></summary>
+         <p><img src="링크 바꿔서 쓰기"/></p>
          </details>
     </div>
 </details>
@@ -572,6 +575,7 @@ REFERENCES `post` (
     <div>
          <details>
          <summary><b>추가 이미지</b></summary>
+         <p><img src="링크 바꿔서 쓰기"/></p>
          </details>
     </div>
 </details>
@@ -581,6 +585,7 @@ REFERENCES `post` (
     <div>
          <details>
          <summary><b>추가 이미지</b></summary>
+         <p><img src="링크 바꿔서 쓰기"/></p>
          </details>
     </div>
 </details>
@@ -590,6 +595,7 @@ REFERENCES `post` (
     <div>
          <details>
          <summary><b>추가 이미지</b></summary>
+         <p><img src="링크 바꿔서 쓰기"/></p>
          </details>
     </div>
 </details>
@@ -599,6 +605,7 @@ REFERENCES `post` (
     <div>
          <details>
          <summary><b>추가 이미지</b></summary>
+         <p><img src="링크 바꿔서 쓰기"/></p>
          </details>
     </div>
 </details>
@@ -608,6 +615,7 @@ REFERENCES `post` (
     <div>
          <details>
          <summary><b>추가 이미지</b></summary>
+         <p><img src="링크 바꿔서 쓰기"/></p>
          </details>
     </div>
 </details>
