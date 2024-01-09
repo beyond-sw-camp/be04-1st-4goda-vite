@@ -557,7 +557,8 @@ REFERENCES `post` (
 	</details>
 	<details>      
 	<summary><b>이벤트 좋아요</b></summary>
-         <p><img src="PNG/Captures/event/이벤트좋아요.gif"/></p>
+         <p><img src="PNG/Captures/event/이벤트 좋아요 트리거 생성.gif"/></p>
+	 <p><img src="PNG/Captures/event/이벤트 좋아요 실행.gif"/></p>
 	</details>
 	<details>
 	<summary><b>회원가입</b></summary>
