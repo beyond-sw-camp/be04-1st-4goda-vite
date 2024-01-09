@@ -545,78 +545,64 @@ REFERENCES `post` (
 	<summary><b>이벤트RSVP UPDATE</b></summary>
          <p><img src="PNG/Captures/user/회원_회원_탈퇴1.png"/></p>
 	 <p><img src="PNG/Captures/user/회원_회원_탈퇴2.png"/></p>
-</details>
-
+	</details>
 	<details>
          <summary><b>이벤트 참석자 명단</b></summary>
          <p><img src="PNG/Captures/event/이벤트참석자명단.gif"/></p>
 	 <p><img src="PNG/Captures/event/이벤트_참석자_명단3.gif"/></p>
-</details>
-
+	</details>
 	<details>
          <summary><b>이벤트발송 업데이트</b></summary>
          <p><img src="PNG/Captures/event/이벤트발송_업데이트.gif"/></p>
-</details>
-
+	</details>
 	<details>      
 	<summary><b>이벤트 좋아요</b></summary>
          <p><img src="PNG/Captures/event/이벤트좋아요.gif"/></p>
-</details>
-
+	</details>
 	<details>
 	<summary><b>회원가입</b></summary>
          <p><img src="PNG/Captures/user/회원가입_기능4.gif"/></p>
-</details>
-
-	<details>
+	</details>
+ 	<details>
         <summary><b>회원등급 업데이트</b></summary>
-        <p><img src="PNG/Captures/user/회원등급_업데이트.gif"/></p>
-</details>
-
-	<details>      
-        <summary><b>회원등급별 할인 적용 금액 조회3</b></summary>
-         <p><img src="PNG/Captures/user/회원등급별_할인_적용_금액_조회3.gif"/></p>
-</details>
-
-	<details>        
+             <p><img src="PNG/Captures/user/회원등급_업데이트.gif"/></p>
+        </details>
+        <details>
+        <summary><b>회원등급별 할인 적용 금액 조회</b></summary>
+             <p><img src="PNG/Captures/user/회원등급별_할인_적용_금액_조회3.gif"/></p>
+        </details>
+        <details>
         <summary><b>회원등급별 할인적용</b></summary>
-         <p><img src="PNG/Captures/user/회원등급별_할인적용.gif"/></p>
-</details>
-
-	<details>        
+             <p><img src="PNG/Captures/user/회원등급별_할인적용.gif"/></p>
+        </details>
+        <details>
         <summary><b>회원별작성게시글확인</b></summary>
-        <p><img src="PNG/Captures/user/회원별작성게시글확인.gif"/></p>
-</details>
-
-	<details>        
+             <p><img src="PNG/Captures/user/회원별작성게시글확인.gif"/></p>
+        </details>
+        <details>
         <summary><b>선물별 결제 회원 확인</b></summary>
-        <p><img src="선물별_결제_회원_확인3"/></p>
-</details>
-
-	<details>        
+             <p><img src="PNG/Captures/present/선물별_결제_회원_확인3.gif"/></p>
+        </details>
+        <details>
         <summary><b>선물결제</b></summary>
-        <p><img src="선물결제.gif"/></p>       
-</details>
-
-	<details>
-        <summary><b>초대장템플릿__결제</b></summary>
-         <p><img src="PNG/Captures/payment/초대장템플릿__결제.gif"/></p>
-</details>
-
-	<details>        
-        <summary><b>사용가능한_초대장템플릿확인</b></summary>
-        <p><img src="PNG/Captures/invitation_template/사용가능한_초대장템플릿확인.gif"/></p>
-</details>
-
-	<details>        
-        <summary><b>초대장템플릿_인덱스생성</b></summary>
-         <p><img src="PNG/Captures/invitation_template/초대장템플릿_인덱스생성.gif"/></p>
- </details>
-
-	<details>       
-        <summary><b>초대장 템플릿 환불3</b></summary>
-         <p><img src="PNG/Captures/invitation_template/초대장템플릿_환불3.gif"/></p>
-</details>	  
+             <p><img src="PNG/Captures/payment/선물결제.gif"/></p>        </details>
+        <details>
+        <summary><b>초대장템플릿 결제</b></summary>
+             <p><img src="PNG/Captures/payment/초대장템플릿__결제.gif"/></p>
+        </details>
+        <details>
+        <summary><b>사용가능한 초대장템플릿 확인</b></summary>
+             <p><img src="PNG/Captures/invitation_template/사용가능한_초대장템플릿확인.gif"/></p>
+        </details>
+        <details>
+        <summary><b>초대장템플릿 인덱스생성</b></summary>
+             <p><img src="PNG/Captures/invitation_template/초대장템플릿_인덱스생성.gif"/></p>
+        </details>
+        <details>
+        <summary><b>초대장 템플릿 환불</b></summary>
+             <p><img src="PNG/Captures/invitation_template/초대장템플릿_환불3.gif"/></p>
+        </details>
+</details> 
 
 ## 📃 테스트케이스 문서
 
@@ -919,8 +905,8 @@ REFERENCES `post` (
 </details>
 
 ## 👫 회고
-|팀원&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|회고록|
-|---:|---|
+|&nbsp;&nbsp;팀&nbsp;원&nbsp;&nbsp;&nbsp;|회고록|
+|:---:|---|
 |박고은|데이터베이스를 처음부터 직접 설계하면서 데이터베이스에 대한 이해를 증진시키는 소중한 시간이었습니다. 또 이번 프로젝트를 진행하면서 팀원들과 아이디어 회의에서부터 문서화 작업까지 프로젝트의 모든 단계에 걸쳐 지속적으로 의견을 공유하고 토의하며 다양한 관점을 존중하는 데 집중했는데, 이 과정이 시간은 많이 소요되었지만 이를 통해 서로 다른 시각에서의 의견을 수용하고 통합되면서 프로젝트의 품질을 향상시킬 수 있었던 것 같고 뿐만 아니라, 팀워크와 소통 능력 향상에 도움이 되는 값진 경험이었습니다.|
 |배성민|쉽게 생각할 수 있는 시스템이 아니기 때문에 개념적인 부분에서 토론이 필요한 시간이 조금 더 길었던 것 같습니다. 충분히 사용자에게 설득할 수 있는 부분과 기능이 있다고 생각했지만, 프로젝트를 진행하면서 아쉽거나 더 추가되었으면 좋겠다고 생각하게 되는 부분도 분명히 있었습니다. 특히 DB를 제작할 때 데이터가 될 값과 기능이 될 부분을 구분하는 것도 어려웠던 것 같습니다. 프로젝트 진행 중에 CRUD, 모델링, TRANSACTION, JOIN등 다양한 SQL문들을 이해하고 적용할 수 있었습니다. 팀원들이 열정적인만큼 함께 무엇이든 할 때 시간이 금방 지나갔다는 점이 좋았던 것 같습니다.|
 |이예원|SW부트캠프를 시작하고 처음 진행한 프로젝트이었는데 처음엔 팀원들이 각자 진행하면서 속성이나 기능에 대한 다른 의견들로 충돌이 있었습니다. 그러나 다 같이 한 번 긴 회의를 통해 안 맞던 개념과 의견들을 맞추는 것을 통해 앞으로의 프로젝트 진행에 큰 대립 없이 진행될 수 있었습니다. 이 프로젝트를 통해 팀원들과의 협업이 가장 중요하다는 것을 알게 되었습니다. 주제선정부터 마무리까지 모든 팀원들이 빠지지 않고 참여해서 좋은 경험이었습니다.|
