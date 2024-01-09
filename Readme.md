@@ -621,8 +621,8 @@ REFERENCES `post` (
         <details>
         <summary><b>초대장 템플릿 환불</b></summary>
              <p><img src="PNG/Captures/invitation_template/초대장템플릿_환불3.gif"/></p>
-	     <p><img src="PNG/Captures/invitation_template/초대장템플릿_환불1.PNG"/></p>
-	     <p><img src="PNG/Captures/invitation_template/초대장템플릿_환불2.PNG"/></p>
+	     <p><img src="PNG/Captures/invitation_template/초대장템플릿_환불1.png"/></p>
+	     <p><img src="PNG/Captures/invitation_template/초대장템플릿_환불2.png"/></p>
         </details>
 </details> 
 
