@@ -554,8 +554,64 @@ REFERENCES `post` (
 <summary><b>✨이벤트</b></summary>
     <div>
          <details>
-         <summary><b>추가 이미지</b></summary>
-         <p><img src="링크 바꿔서 쓰기"/></p>
+         <summary><b>이벤트 삭제</b></summary>
+         <p><img src="PNG/Captures/event/이벤트_이벤트삭제1.png"/></p>
+         <p><img src="PNG/Captures/event/이벤트_이벤트삭제2.png"/></p>
+         </details>
+         <details>
+         <summary><b>이벤트 공개</b></summary>
+         <p><img src="PNG/Captures/event/이벤트_이벤트공개1.png"/></p>
+         <p><img src="PNG/Captures/event/이벤트_이벤트공개2.png"/></p>
+         </details>
+         <details>
+         <summary><b>이벤트 비공개</b></summary>
+         <p><img src="PNG/Captures/event/이벤트_이벤트비공개1.png"/></p>
+         <p><img src="PNG/Captures/event/이벤트_이벤트비공개2.png"/></p>
+         </details>
+         <details>
+         <summary><b>이벤트 좋아요</b></summary>
+         <p><img src="PNG/Captures/event/이벤트_이벤트좋아요1.png"/></p>
+         <p><img src="PNG/Captures/event/이벤트_이벤트좋아요2.png"/></p>
+         </details>
+         <details>
+         <summary><b>이벤트 좋아요 취소</b></summary>
+         <p><img src="PNG/Captures/event/이벤트_이벤트좋아요취소1.png"/></p>
+         <p><img src="PNG/Captures/event/이벤트_이벤트좋아요취소2.png"/></p>
+         </details>
+         <details>
+         <summary><b>이벤트 댓글 작성</b></summary>
+         <p><img src="PNG/Captures/event/이벤트_이벤트댓글작성1.png"/></p>
+         <p><img src="PNG/Captures/event/이벤트_이벤트댓글작성2.png"/></p>
+         </details>
+         <details>
+         <summary><b>이벤트 댓글 수정</b></summary>
+         <p><img src="PNG/Captures/event/이벤트_이벤트댓글수정1.png"/></p>
+         <p><img src="PNG/Captures/event/이벤트_이벤트댓글수정2.png"/></p>
+         </details>
+         <details>
+         <summary><b>이벤트 댓글 삭제</b></summary>
+         <p><img src="PNG/Captures/event/이벤트_이벤트댓글삭제1.png"/></p>
+         <p><img src="PNG/Captures/event/이벤트_이벤트댓글삭제2.png"/></p>
+         </details>
+         <details>
+         <summary><b>이벤트 좋아요</b></summary>
+         <p><img src="PNG/Captures/event/이벤트_이벤트좋아요1.png"/></p>
+         <p><img src="PNG/Captures/event/이벤트_이벤트좋아요2.png"/></p>
+         </details>
+		 <details>
+         <summary><b>회원별 작성 이벤트 댓글 조회</b></summary>
+         <p><img src="PNG/Captures/event/이벤트_회원별작성이벤트댓글조회1.png"/></p>
+         <p><img src="PNG/Captures/event/이벤트_회원별작성이벤트댓글조회2.png"/></p>
+         </details>
+		 <details>
+         <summary><b>이벤트 주최 회원 닉네임 확인</b></summary>
+         <p><img src="PNG/Captures/event/이벤트_이벤트주최회원닉네임확인1.png"/></p>
+         <p><img src="PNG/Captures/event/이벤트_이벤트주최회원닉네임확인2.png"/></p>
+         </details>
+		 <details>
+         <summary><b>이벤트카테고리별 이벤트 목록 확인</b></summary>
+         <p><img src="PNG/Captures/event/이벤트_이벤트카테고리별이벤목록확인1.png"/></p>
+         <p><img src="PNG/Captures/event/이벤트_이벤트카테고리별이벤트목록확인2.png"/></p>
          </details>
     </div>
 </details>
@@ -563,13 +619,18 @@ REFERENCES `post` (
 <details>
 <summary><b>💸결제</b></summary>
     <div>
-         <details>
-         <summary><b>추가 이미지</b></summary>
-         <p><img src="링크 바꿔서 쓰기"/></p>
+		<details>
+         <summary><b>결제하기</b></summary>
+         <p><img src="PNG/Captures/payment/결제_결제하기1.png"/></p>
+         <p><img src="PNG/Captures/payment/결제_결제하기2.png"/></p>
+         </details>
+		<details>
+         <summary><b>결제내역 확인</b></summary>
+         <p><img src="PNG/Captures/payment/결제_결제내역확인1.png"/></p>
+         <p><img src="PNG/Captures/payment/결제_결제내역확인2.png"/></p>
          </details>
     </div>
 </details>
-
 <details>
 <summary><b>💱환불</b></summary>
     <div>
