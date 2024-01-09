@@ -663,12 +663,48 @@ REFERENCES `post` (
 
 <details>
 <summary><b>✍️게시글</b></summary>
+<summary><b>✍️게시글</b></summary>
     <div>
          <details>
-         <summary><b>추가 이미지</b></summary>
-         <p><img src="링크 바꿔서 쓰기"/></p>
-         </details>
-    </div>
+         <summary><b>게시글 문의사항 작성</b></summary>
+             <p><img src="PNG/Captures/post/게시글_문의사항_작성_1.png"/></p>
+             <p><img src="PNG/Captures/post/게시글_문의사항_작성_2.png"/></p>
+        </details>
+        <details>
+        <summary><b>게시글 문의사항 수정</b></summary>
+             <p><img src="PNG/Captures/post/문의사항 수정1.png"/></p>
+             <p><img src="PNG/Captures/post/문의사항 수정2.png"/></p>
+        </details>
+        <details>
+        <summary><b>게시글 문의사항 답변</b></summary>
+             <p><img src="PNG/Captures/post/문의사항 답변1.png"/></p>
+             <p><img src="PNG/Captures/post/문의사항 답변2.png"/></p>
+        </details>
+        <details>
+        <summary><b>게시글 문의사항 답변 수정</b></summary>
+             <p><img src="PNG/Captures/post/문의사항 답변 수정1.png"/></p>
+             <p><img src="PNG/Captures/post/문의사항 답변 수정2.png"/></p>
+        </details>
+        <details>
+        <summary><b>게시글 문의사항별 답변 확인</b></summary>
+             <p><img src="PNG/Captures/post/문의사항별 답변 확인1.png"/></p>
+             <p><img src="PNG/Captures/post/문의사항별 답변 확인2.png"/></p>
+        </details>
+        <details>
+        <summary><b>게시글 공지사항 작성</b></summary>
+             <p><img src="PNG/Captures/post/공지사항 작성1.png"/></p>
+             <p><img src="PNG/Captures/post/공지사항 작성2.png"/></p>
+        </details>
+        <details>
+        <summary><b>게시글 공지사항 삭제</b></summary>
+             <p><img src="PNG/Captures/post/공지사항 삭제1.png"/></p>
+             <p><img src="PNG/Captures/post/공지사항 삭제2.png"/></p>
+        </details>
+        <details>
+        <summary><b>게시글 공지사항 수정</b></summary>
+             <p><img src="PNG/Captures/post/공지사항 수정1.png"/></p>
+             <p><img src="PNG/Captures/post/공지사항 수정2.png"/></p>
+        </details>
 </details>
 
 
