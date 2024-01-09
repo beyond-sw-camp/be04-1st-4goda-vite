@@ -545,50 +545,78 @@ REFERENCES `post` (
 	<summary><b>이벤트RSVP UPDATE</b></summary>
          <p><img src="PNG/Captures/user/회원_회원_탈퇴1.png"/></p>
 	 <p><img src="PNG/Captures/user/회원_회원_탈퇴2.png"/></p>
+</details>
 
+	<details>
          <summary><b>이벤트 참석자 명단</b></summary>
          <p><img src="PNG/Captures/event/이벤트참석자명단.gif"/></p>
 	 <p><img src="PNG/Captures/event/이벤트_참석자_명단3.gif"/></p>
+</details>
 
+	<details>
          <summary><b>이벤트발송 업데이트</b></summary>
          <p><img src="PNG/Captures/event/이벤트발송_업데이트.gif"/></p>
-      
+</details>
+
+	<details>      
 	<summary><b>이벤트 좋아요</b></summary>
          <p><img src="PNG/Captures/event/이벤트좋아요.gif"/></p>
+</details>
 
+	<details>
 	<summary><b>회원가입</b></summary>
          <p><img src="PNG/Captures/user/회원가입_기능4.gif"/></p>
+</details>
 
+	<details>
         <summary><b>회원등급 업데이트</b></summary>
         <p><img src="PNG/Captures/user/회원등급_업데이트.gif"/></p>
-      
+</details>
+
+	<details>      
         <summary><b>회원등급별 할인 적용 금액 조회3</b></summary>
          <p><img src="PNG/Captures/user/회원등급별_할인_적용_금액_조회3.gif"/></p>
-        
+</details>
+
+	<details>        
         <summary><b>회원등급별 할인적용</b></summary>
          <p><img src="PNG/Captures/user/회원등급별_할인적용.gif"/></p>
-        
+</details>
+
+	<details>        
         <summary><b>회원별작성게시글확인</b></summary>
         <p><img src="PNG/Captures/user/회원별작성게시글확인.gif"/></p>
-        
+</details>
+
+	<details>        
         <summary><b>선물별 결제 회원 확인</b></summary>
         <p><img src="선물별_결제_회원_확인3"/></p>
-        
+</details>
+
+	<details>        
         <summary><b>선물결제</b></summary>
         <p><img src="선물결제.gif"/></p>       
+</details>
 
+	<details>
         <summary><b>초대장템플릿__결제</b></summary>
          <p><img src="PNG/Captures/payment/초대장템플릿__결제.gif"/></p>
-        
+</details>
+
+	<details>        
         <summary><b>사용가능한_초대장템플릿확인</b></summary>
         <p><img src="PNG/Captures/invitation_template/사용가능한_초대장템플릿확인.gif"/></p>
-        
+</details>
+
+	<details>        
         <summary><b>초대장템플릿_인덱스생성</b></summary>
          <p><img src="PNG/Captures/invitation_template/초대장템플릿_인덱스생성.gif"/></p>
-        
+ </details>
+
+	<details>       
         <summary><b>초대장 템플릿 환불3</b></summary>
          <p><img src="PNG/Captures/invitation_template/초대장템플릿_환불3.gif"/></p>
-</details>	 
+</details>	  
 
 ## 📃 테스트케이스 문서
 
