@@ -573,6 +573,9 @@ REFERENCES `post` (
 	<details>
 	<summary><b>회원가입</b></summary>
          <p><img src="PNG/Captures/user/회원가입_기능4.gif"/></p>
+	<p><img src="PNG/Captures/user/회원가입_기능1.png"/></p>
+	<p><img src="PNG/Captures/user/회원가입_기능2.png"/></p>
+	<p><img src="PNG/Captures/user/회원가입_기능3.png"/></p>
 	</details>
  	<details>
         <summary><b>회원등급 업데이트</b></summary>
@@ -582,6 +585,8 @@ REFERENCES `post` (
         <details>
         <summary><b>회원등급별 할인 적용 금액 조회</b></summary>
              <p><img src="PNG/Captures/user/회원등급별_할인_적용_금액_조회3.gif"/></p>
+		<p><img src="PNG/Captures/user/회원등급별_할인_적용_금액_조회1.png"/></p>
+		<p><img src="PNG/Captures/user/회원등급별_할인_적용_금액_조회2.png"/></p>
         </details>
         <details>
         <summary><b>회원등급별 할인적용</b></summary>
@@ -596,6 +601,8 @@ REFERENCES `post` (
         <details>
         <summary><b>선물별 결제 회원 확인</b></summary>
              <p><img src="PNG/Captures/present/선물별_결제_회원_확인3.gif"/></p>
+	     <p><img src="PNG/Captures/present/선물별_결제_회원_확인1.png"/></p>
+	     <p><img src="PNG/Captures/present/선물별_결제_회원_확인2.png"/></p>
         </details>
         <details>
         <summary><b>선물결제</b></summary>
