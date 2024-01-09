@@ -541,8 +541,8 @@ REFERENCES `post` (
 ## ✒️ 주요 쿼리
 
 <details>
-<summary><b><details>
-<summary><b>이벤트1</b></summary>
+    
+<summary><b><details><summary><b>&nbsp;&nbsp;이벤트1</b></summary>
 
 </details></b></summary>
 
