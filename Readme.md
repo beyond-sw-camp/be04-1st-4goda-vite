@@ -606,6 +606,8 @@ REFERENCES `post` (
 
 ## 📃 테스트케이스 문서
 
+<p align="center"><img src="https://github.com/beyond-sw-camp/be04-1st-4goda-vite/blob/main/PNG/Readme/테스트케이스.png"/></p>
+
 ## 🏁 테스트케이스 
 <details>
 <summary><b>🕵️‍♀️회원</b></summary>
