@@ -541,12 +541,8 @@ REFERENCES `post` (
 ## ✒️ 주요 쿼리
 
 <details>
-    
-<summary><b><details><summary><b>&nbsp;&nbsp;이벤트1</b></summary>
+<summary><b>회원</b></summary>
 
-</details></b></summary>
-
-    
 </details>
 
 <details>
