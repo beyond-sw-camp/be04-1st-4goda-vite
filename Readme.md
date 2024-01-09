@@ -540,6 +540,9 @@ REFERENCES `post` (
 
 ## ✒️ 주요 쿼리
 
+## 🏁 테스트케이스
+
+## 📃 테스트케이스 문서
 <details>
 <summary><b>🕵️‍♀️회원</b></summary>
     <div>
@@ -827,10 +830,6 @@ REFERENCES `post` (
              <p><img src="PNG/Captures/post/공지사항 수정2.png"/></p>
         </details>
 </details>
-
-
-
-## 🏁 테스트
 
 ## 👫 회고
 
