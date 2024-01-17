@@ -70,7 +70,7 @@
 ## 📝 WBS
 
 [WBS 바로가기](https://docs.google.com/spreadsheets/d/1tX0TRsPvECfPtoJETw0iKIp1Ami4aau9lG6vSYuidu4/edit#gid=1531810588)
-<p align="center"><img src="https://github.com/beyond-sw-camp/be04-1st-4goda-vite/blob/main/PNG/Readme/wbs_수정.png"/></p>
+<p align="center"><img src="https://github.com/beyond-sw-camp/be04-1st-4goda-vite/blob/main/PNG/Readme/wbs_수정2.png"/></p>
 
 ## 📘 요구사항
 <details>
