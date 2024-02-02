@@ -143,6 +143,21 @@
 <p align="center"><img src="https://github.com/beyond-sw-camp/be04-1st-4goda-vite/blob/main/PNG/Readme/master_slave_structure.png"/></p>
 <p align="center"><img src="https://github.com/beyond-sw-camp/be04-1st-4goda-vite/blob/main/PNG/Readme/master_slave_connection.png"/></p>
 
+<details>
+<summary><b>Log</b></summary>
+<b>mariaDB general.log 상태 확인</b>
+<p align="center"><img src="https://github.com/beyond-sw-camp/be04-1st-4goda-vite/blob/main/PNG/Readme/general_log_status.png"/></p>
+<b>general.log 파일 확인</b>
+<p align="center"><img src="https://github.com/beyond-sw-camp/be04-1st-4goda-vite/blob/main/PNG/Readme/general_log.png"/></p>
+</details>
+<details>
+<summary><b>DB서버 공유</b></summary>
+<b>우분투 네트워크 설정</b>
+<p align="center"><img src="https://github.com/beyond-sw-camp/be04-1st-4goda-vite/blob/main/PNG/Readme/network_setting.png"/></p>
+<b>다른 PC에서 mariaDB 서버에 접속하는 화면</b>
+<p align="center"><img src="https://github.com/beyond-sw-camp/be04-1st-4goda-vite/blob/main/PNG/Readme/remote_master.png"/></p>
+</details>
+
 ## 📖 DDL
 <details>
 <summary><b>VITE DDL</b></summary>
